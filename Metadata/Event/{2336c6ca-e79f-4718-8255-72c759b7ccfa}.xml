@@ -114,8 +114,9 @@
 			<value>1.7647083333333333</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{34c79885-9c29-444e-9b0b-b3affe292c57}</destination>
-			<destination>{294a1102-4f34-4ac9-a058-c5590cd1afe0}</destination>
+			<destination>{3e1843a0-8257-4f0e-ba85-124816d89935}</destination>
+			<destination>{6c74f7fa-3bfb-4b1d-b794-baaea9ebb970}</destination>
+			<destination>{41f6556d-229a-466a-94fb-71ac01efbbe6}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{c6534c95-14cc-4ff0-aea3-bedde82ae36e}">
@@ -180,14 +181,19 @@
 	</object>
 	<object class="MixerBusPanner" id="{12f14591-fca7-41af-abaf-a12c0f3d8cb8}" />
 	<object class="MixerBusFader" id="{e20224c0-435a-4bdb-ac52-1806af19213c}" />
-	<object class="SingleSound" id="{34c79885-9c29-444e-9b0b-b3affe292c57}">
+	<object class="SingleSound" id="{3e1843a0-8257-4f0e-ba85-124816d89935}">
 		<relationship name="audioFile">
-			<destination>{b5d77bc3-611c-4511-9ce5-d31eeebc6f70}</destination>
+			<destination>{1c1a453e-9906-4c9c-826a-383394ae39e1}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{294a1102-4f34-4ac9-a058-c5590cd1afe0}">
+	<object class="SingleSound" id="{6c74f7fa-3bfb-4b1d-b794-baaea9ebb970}">
 		<relationship name="audioFile">
-			<destination>{4cb5d1fc-0297-4dcc-947f-f549a7cb797c}</destination>
+			<destination>{42fb1a71-ea0f-46ca-a36f-2965fee65264}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{41f6556d-229a-466a-94fb-71ac01efbbe6}">
+		<relationship name="audioFile">
+			<destination>{0f2405e4-6e39-4d91-9252-a2352f5f616c}</destination>
 		</relationship>
 	</object>
 	<object class="Automator" id="{5ca5d14c-4260-44cb-b8dc-3c9cee07b1ed}">
@@ -271,7 +277,7 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-12</value>
+			<value>-2</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{5c6d2983-9fcf-4d34-8b46-7941954b1a6c}">
@@ -279,7 +285,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>-80</value>
+			<value>-40</value>
 		</property>
 	</object>
 	<object class="RandomizerModulator" id="{c90b5b25-fe89-4ca6-8c3b-c39373188e82}">

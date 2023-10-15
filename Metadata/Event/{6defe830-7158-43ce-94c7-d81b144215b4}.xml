@@ -85,7 +85,7 @@
 			<destination>{b1178d88-72ee-4c52-aec3-470212a5c80a}</destination>
 		</relationship>
 		<relationship name="modules">
-			<destination>{f6c03d71-26e4-4f02-b997-851edd10d281}</destination>
+			<destination>{bfcadbd4-8613-4b7d-bc1d-fde31993964d}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{3e4b13d0-3a26-4149-987a-77e281f9af70}</destination>
@@ -94,7 +94,7 @@
 	<object class="Timeline" id="{b777a0f3-e6de-42e9-996f-1efc0787a83c}">
 		<relationship name="modules">
 			<destination>{37bec176-6aaa-4fc0-a34d-5e43e93efd13}</destination>
-			<destination>{f6c03d71-26e4-4f02-b997-851edd10d281}</destination>
+			<destination>{bfcadbd4-8613-4b7d-bc1d-fde31993964d}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{c86e80e7-869d-4227-9bd0-a4e9bda92bc2}">
@@ -152,12 +152,12 @@
 			<destination>{b173f3cb-f8c7-42fc-9b65-9c30ff8e7591}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{f6c03d71-26e4-4f02-b997-851edd10d281}">
+	<object class="SingleSound" id="{bfcadbd4-8613-4b7d-bc1d-fde31993964d}">
 		<property name="length">
-			<value>2.4361675069944191</value>
+			<value>0.6875</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{6992082e-38e6-4178-9a35-43a6f1abe092}</destination>
+			<destination>{0345e5c6-86f8-48b4-86f2-af220cede686}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{3e4b13d0-3a26-4149-987a-77e281f9af70}">
@@ -196,7 +196,6 @@
 	<object class="MixerBusEffectChain" id="{37ca021e-2d46-49f0-a184-df0f821edf34}">
 		<relationship name="effects">
 			<destination>{6538bf77-8ce2-43b4-8902-1af70b0cc798}</destination>
-			<destination>{6404f159-af68-40b2-8bc7-dadddfedb959}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{2f2d2ec2-54de-4c32-a37b-c3f26ad70334}" />
@@ -233,32 +232,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{6538bf77-8ce2-43b4-8902-1af70b0cc798}" />
-	<object class="SFXReverbEffect" id="{6404f159-af68-40b2-8bc7-dadddfedb959}">
-		<property name="decayTime">
-			<value>6000</value>
-		</property>
-		<property name="earlyDelay">
-			<value>0</value>
-		</property>
-		<property name="lateDelay">
-			<value>0</value>
-		</property>
-		<property name="HFDecayRatio">
-			<value>49.5</value>
-		</property>
-		<property name="lowShelfFrequency">
-			<value>360</value>
-		</property>
-		<property name="lowShelfGain">
-			<value>3</value>
-		</property>
-		<property name="highCut">
-			<value>20000</value>
-		</property>
-		<property name="dryLevel">
-			<value>-9</value>
-		</property>
-	</object>
 	<object class="AutomationCurve" id="{273014a8-b7fc-40cc-b831-8363d8b493d3}">
 		<relationship name="parameter">
 			<destination>{208f2cc8-11e6-4946-a1b8-71bf14f0ae6d}</destination>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{c203d8df-9322-41e2-bc39-6c3034eb5aed}">
-		<property name="note" />
 		<property name="name">
 			<value>kashing</value>
 		</property>
@@ -71,7 +70,7 @@
 	<object class="MarkerTrack" id="{31a3168c-ee25-4af9-af0b-99f1714b2443}" />
 	<object class="GroupTrack" id="{0b88cdde-198a-4428-a49b-3d52395de635}">
 		<relationship name="modules">
-			<destination>{fe224304-3ab2-4949-90cf-b3da8c5b512c}</destination>
+			<destination>{aeb76949-2853-475f-8239-0e58e61328da}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{fe8729c0-7472-48dd-ac03-c1509a32781d}</destination>
@@ -79,7 +78,7 @@
 	</object>
 	<object class="Timeline" id="{e7e552be-6ccb-46b8-addf-14c665556500}">
 		<relationship name="modules">
-			<destination>{fe224304-3ab2-4949-90cf-b3da8c5b512c}</destination>
+			<destination>{aeb76949-2853-475f-8239-0e58e61328da}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{f7ce9d4f-0fe5-487e-9e8e-c22d4836aab7}">
@@ -99,12 +98,12 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{9c43f93c-0182-4974-bfff-78d128a9adb0}" />
-	<object class="SingleSound" id="{fe224304-3ab2-4949-90cf-b3da8c5b512c}">
+	<object class="SingleSound" id="{aeb76949-2853-475f-8239-0e58e61328da}">
 		<property name="length">
-			<value>1.7797916666666667</value>
+			<value>0.81995464852607713</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{3ad56817-9c2a-4439-8b28-404a71761b64}</destination>
+			<destination>{cc13b2a2-b05d-4450-88f6-6fcfdb3aaed6}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{fe8729c0-7472-48dd-ac03-c1509a32781d}">
@@ -139,7 +138,7 @@
 	<object class="MixerBusFader" id="{43c7e0b1-6073-465a-869d-89b800ca4df0}" />
 	<object class="ProxyEffect" id="{8a1ee7d4-33d3-48b6-818b-14c8667f344e}">
 		<property name="inputFormat">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<relationship name="preset">
 			<destination>{544615da-5f6b-4e23-8fe1-24657667d5fd}</destination>

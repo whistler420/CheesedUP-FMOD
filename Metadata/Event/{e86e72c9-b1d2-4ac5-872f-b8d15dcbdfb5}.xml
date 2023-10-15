@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{e86e72c9-b1d2-4ac5-872f-b8d15dcbdfb5}">
-		<property name="note" />
 		<property name="name">
 			<value>fireassSP</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{83c65b71-f23e-442b-ac83-d65fa9323abe}</destination>
@@ -71,9 +70,6 @@
 	</object>
 	<object class="MarkerTrack" id="{d0103939-1cba-4252-8bb8-e3f2a3907c10}" />
 	<object class="GroupTrack" id="{77a8ed85-5c78-4455-98b1-8da82a7dfa45}">
-		<relationship name="modules">
-			<destination>{025ee59a-def0-4dd8-8aa2-70f068825b98}</destination>
-		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{cde5794c-d33e-4eac-9ab6-6c82a99b543f}</destination>
 		</relationship>
@@ -88,7 +84,6 @@
 	</object>
 	<object class="Timeline" id="{07e2592a-b315-4aaa-8b0d-c10f417a2c05}">
 		<relationship name="modules">
-			<destination>{025ee59a-def0-4dd8-8aa2-70f068825b98}</destination>
 			<destination>{46dfadd6-0abd-431c-96f5-ea925965cc3c}</destination>
 		</relationship>
 	</object>
@@ -109,14 +104,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{952d8453-db76-4ef4-9499-a8821cb9d98b}" />
-	<object class="SingleSound" id="{025ee59a-def0-4dd8-8aa2-70f068825b98}">
-		<property name="length">
-			<value>2.1773125000000002</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{dfb6dfec-ab24-49cf-b05e-d1e22452916a}</destination>
-		</relationship>
-	</object>
 	<object class="EventMixerGroup" id="{cde5794c-d33e-4eac-9ab6-6c82a99b543f}">
 		<property name="volume">
 			<value>-6</value>

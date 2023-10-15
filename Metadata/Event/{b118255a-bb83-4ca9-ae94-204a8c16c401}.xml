@@ -70,7 +70,7 @@
 	<object class="MarkerTrack" id="{d72d71ed-129e-4a42-8be8-c07eb8c15afe}" />
 	<object class="GroupTrack" id="{2cf2836a-bad1-44cb-9e68-4f358de47420}">
 		<relationship name="modules">
-			<destination>{962e41b0-86f0-4d1b-a69c-7396c54686f0}</destination>
+			<destination>{679b5cf9-da5e-4812-aae0-570094e5cf3d}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{4674c88a-fad9-4b14-8548-98f3f276c749}</destination>
@@ -78,7 +78,7 @@
 	</object>
 	<object class="Timeline" id="{18d85940-8331-4c1b-baaf-bf96e07543a5}">
 		<relationship name="modules">
-			<destination>{962e41b0-86f0-4d1b-a69c-7396c54686f0}</destination>
+			<destination>{679b5cf9-da5e-4812-aae0-570094e5cf3d}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{474fa1e5-ee8e-4d13-b920-bc343aad435a}">
@@ -98,21 +98,15 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d6f2f248-9bce-4117-8184-9e6efb25d57a}" />
-	<object class="SingleSound" id="{962e41b0-86f0-4d1b-a69c-7396c54686f0}">
+	<object class="SingleSound" id="{679b5cf9-da5e-4812-aae0-570094e5cf3d}">
 		<property name="length">
-			<value>1.3690416666666667</value>
-		</property>
-		<property name="timelockedOffset">
-			<value>0.029999999999999999</value>
+			<value>0.44222222222222224</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{d16c964d-6d8c-4f7c-8a22-9fd997d91564}</destination>
+			<destination>{c26302bd-f322-488b-bdf4-be2c5a01c066}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{4674c88a-fad9-4b14-8548-98f3f276c749}">
-		<property name="volume">
-			<value>-12</value>
-		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -143,7 +137,7 @@
 	<object class="MixerBusFader" id="{3cc444e5-0291-4e24-9b11-7f6f6374aa7e}" />
 	<object class="ProxyEffect" id="{11d9c66a-9d7a-4417-8dfc-3f2c7efb9c33}">
 		<property name="inputFormat">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<relationship name="preset">
 			<destination>{544615da-5f6b-4e23-8fe1-24657667d5fd}</destination>

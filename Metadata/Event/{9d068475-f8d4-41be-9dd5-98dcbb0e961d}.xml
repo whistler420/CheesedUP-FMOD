@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{9d068475-f8d4-41be-9dd5-98dcbb0e961d}">
-		<property name="note" />
 		<property name="name">
 			<value>thunder</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{cb57ec6f-061b-4a68-942d-81a565540b7f}</destination>
@@ -71,7 +70,7 @@
 	<object class="MarkerTrack" id="{46f86588-c6c3-4df6-9449-9e3d5ea06112}" />
 	<object class="GroupTrack" id="{7ec7e5b7-f6e5-4d4c-82d3-be4ebb8bd518}">
 		<relationship name="modules">
-			<destination>{51068a14-7bcb-48b0-ab9e-d56644c7c287}</destination>
+			<destination>{bd7d3038-940b-4806-bc04-3f7fde3b7137}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{c752bcad-3833-4857-b588-c407769b3b71}</destination>
@@ -79,7 +78,7 @@
 	</object>
 	<object class="Timeline" id="{a8298ba8-0571-4069-9f19-3377693e1c9b}">
 		<relationship name="modules">
-			<destination>{51068a14-7bcb-48b0-ab9e-d56644c7c287}</destination>
+			<destination>{bd7d3038-940b-4806-bc04-3f7fde3b7137}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{9d7d8af7-7541-496b-9841-8ba0455ea55d}">
@@ -99,21 +98,15 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1044860b-1f4a-4dc7-adb1-6baca3dbdba1}" />
-	<object class="SingleSound" id="{51068a14-7bcb-48b0-ab9e-d56644c7c287}">
+	<object class="SingleSound" id="{bd7d3038-940b-4806-bc04-3f7fde3b7137}">
 		<property name="length">
-			<value>3.5320000000000027</value>
-		</property>
-		<property name="timelockedOffset">
-			<value>0.14000000000000001</value>
+			<value>2.1842857142857142</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{f912751b-e264-4b4f-9dd3-1f61531d0619}</destination>
+			<destination>{7cb14c10-0f6c-43a4-aef1-6fc161b3c931}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{c752bcad-3833-4857-b588-c407769b3b71}">
-		<property name="volume">
-			<value>6</value>
-		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>

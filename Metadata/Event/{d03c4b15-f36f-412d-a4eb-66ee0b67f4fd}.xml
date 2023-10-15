@@ -70,7 +70,7 @@
 	<object class="MarkerTrack" id="{8de39f22-2774-46fe-8fd5-04c23624ca57}" />
 	<object class="GroupTrack" id="{bfe56d4b-6b6d-4cd3-a5ef-13d31ac98fa9}">
 		<relationship name="modules">
-			<destination>{a4c9a518-7ce0-4183-8448-e33747e14a0c}</destination>
+			<destination>{3ec50c53-e951-4f1f-81ed-d52a08d02387}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{84da8b2d-61b8-4592-999b-1a5733b5052b}</destination>
@@ -78,7 +78,7 @@
 	</object>
 	<object class="Timeline" id="{f8783d34-84b2-4fd4-aaac-40fce39c38dd}">
 		<relationship name="modules">
-			<destination>{a4c9a518-7ce0-4183-8448-e33747e14a0c}</destination>
+			<destination>{3ec50c53-e951-4f1f-81ed-d52a08d02387}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{27ac8509-75c3-45ac-ac0f-69664fc92b3e}">
@@ -98,20 +98,17 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{7c53bf90-a283-48dc-8a36-6c2dc73e2a6f}" />
-	<object class="SingleSound" id="{a4c9a518-7ce0-4183-8448-e33747e14a0c}">
+	<object class="SingleSound" id="{3ec50c53-e951-4f1f-81ed-d52a08d02387}">
 		<property name="length">
-			<value>1.2761041666666666</value>
-		</property>
-		<property name="timelockedOffset">
-			<value>0.029999999999999999</value>
+			<value>0.44222222222222224</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{c0aebbc9-9716-418b-98d5-947c95f8e1e2}</destination>
+			<destination>{c26302bd-f322-488b-bdf4-be2c5a01c066}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{84da8b2d-61b8-4592-999b-1a5733b5052b}">
 		<property name="volume">
-			<value>-11.5</value>
+			<value>-2.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -143,7 +140,7 @@
 	<object class="MixerBusFader" id="{6f1976bb-bfe9-4d90-8519-1b7df8640913}" />
 	<object class="ProxyEffect" id="{41fc76f5-87eb-4745-870c-f8dba7020ccb}">
 		<property name="inputFormat">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<relationship name="preset">
 			<destination>{544615da-5f6b-4e23-8fe1-24657667d5fd}</destination>

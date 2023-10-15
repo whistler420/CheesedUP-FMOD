@@ -74,7 +74,7 @@
 			<destination>{2e526739-1940-4ae5-9b2e-e4184b16ac8a}</destination>
 		</relationship>
 		<relationship name="modules">
-			<destination>{34668981-dc94-4037-8e11-b4f2557b8454}</destination>
+			<destination>{c51d5db3-8d7b-4157-997a-1c8e8c21ab10}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{6a20045a-6a4b-4785-a8d3-4212a81f838e}</destination>
@@ -93,8 +93,8 @@
 	</object>
 	<object class="Timeline" id="{de06c34d-9efa-4f0c-800d-678eb2ff43b0}">
 		<relationship name="modules">
-			<destination>{34668981-dc94-4037-8e11-b4f2557b8454}</destination>
 			<destination>{e7e5b7e5-fb70-45a7-87cc-50cf6566a2b6}</destination>
+			<destination>{c51d5db3-8d7b-4157-997a-1c8e8c21ab10}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{fcd8ac3b-cbcb-4b8c-8661-21da5fbc1f53}">
@@ -119,18 +119,12 @@
 			<destination>{ae4344ec-3c3d-4e10-9538-9fbe2b2b0e2e}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{34668981-dc94-4037-8e11-b4f2557b8454}">
+	<object class="SingleSound" id="{c51d5db3-8d7b-4157-997a-1c8e8c21ab10}">
 		<property name="length">
-			<value>1.5945833333333332</value>
+			<value>0.22675736961451248</value>
 		</property>
-		<property name="pitch">
-			<value>3</value>
-		</property>
-		<relationship name="modulators">
-			<destination>{a4e5bc42-6a07-4a5c-b4c7-a4c67a7ff3da}</destination>
-		</relationship>
 		<relationship name="audioFile">
-			<destination>{5db64371-eca0-47dd-8a89-3b49624fea8f}</destination>
+			<destination>{9ab10a1b-e0fb-4c32-815a-96d9ad5c749f}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{6a20045a-6a4b-4785-a8d3-4212a81f838e}">
@@ -200,14 +194,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{12d0d82e-ec68-49e1-a82b-ad25dac1a0f1}" />
 	<object class="MixerBusFader" id="{1f157b1a-ee6a-4afd-878d-b686228005af}" />
-	<object class="RandomizerModulator" id="{a4e5bc42-6a07-4a5c-b4c7-a4c67a7ff3da}">
-		<property name="nameOfPropertyBeingModulated">
-			<value>pitch</value>
-		</property>
-		<property name="amount">
-			<value>8.5</value>
-		</property>
-	</object>
 	<object class="Automator" id="{ae4344ec-3c3d-4e10-9538-9fbe2b2b0e2e}">
 		<property name="nameOfPropertyBeingAutomated">
 			<value>volume</value>
@@ -305,7 +291,7 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-9</value>
+			<value>2</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{b90f3bed-31d7-47f0-8b4b-135d8ebf2c66}">
@@ -313,7 +299,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>-80</value>
+			<value>-38</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{f00692b1-2f18-42b4-b1ba-19c17d30c46e}">

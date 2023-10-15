@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{b78bd49a-f756-4806-b3d7-685b11b3c5c2}">
-		<property name="note" />
 		<property name="name">
 			<value>pepbotkick</value>
 		</property>
@@ -71,7 +70,7 @@
 	<object class="MarkerTrack" id="{2974de73-22b0-44f0-b390-ab767b4025ff}" />
 	<object class="GroupTrack" id="{078d767a-35b1-4af0-a9f7-b8e2f93fe9e1}">
 		<relationship name="modules">
-			<destination>{c9c11307-9975-44db-87b5-ff1069b6b97d}</destination>
+			<destination>{c5be0c5f-5311-4e3a-971a-054702e64574}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{509c41b8-f19e-49bb-8ffc-187ba1f1bc82}</destination>
@@ -79,7 +78,7 @@
 	</object>
 	<object class="Timeline" id="{2e0e0b0f-a711-4f59-827d-0c6ed139109d}">
 		<relationship name="modules">
-			<destination>{c9c11307-9975-44db-87b5-ff1069b6b97d}</destination>
+			<destination>{c5be0c5f-5311-4e3a-971a-054702e64574}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{508f9ba1-a8a3-4202-8094-3cb5f5c662ae}">
@@ -99,12 +98,15 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{5be8e6a8-9188-466e-a41a-ce83654289e8}" />
-	<object class="SingleSound" id="{c9c11307-9975-44db-87b5-ff1069b6b97d}">
+	<object class="SingleSound" id="{c5be0c5f-5311-4e3a-971a-054702e64574}">
 		<property name="length">
-			<value>2.1520000000000001</value>
+			<value>0.70755102040816331</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>0.050000000000000003</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{af9915a2-0ae0-4ddf-8765-20d2d610d085}</destination>
+			<destination>{d19a15bd-5683-4e38-9c33-529cf1fac216}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{509c41b8-f19e-49bb-8ffc-187ba1f1bc82}">
@@ -142,7 +144,7 @@
 	<object class="MixerBusFader" id="{124e3e8f-746e-4ba3-8ddb-e6993d5cffb2}" />
 	<object class="ProxyEffect" id="{446b6f98-326a-40c2-bdf5-00ab7fa7baa2}">
 		<property name="inputFormat">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<relationship name="preset">
 			<destination>{544615da-5f6b-4e23-8fe1-24657667d5fd}</destination>
