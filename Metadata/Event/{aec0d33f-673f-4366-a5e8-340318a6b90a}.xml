@@ -5,7 +5,7 @@
 			<value>foundtreasure</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{be772a5b-60ed-49a1-962a-2d2e0d1181f8}</destination>
@@ -105,6 +105,7 @@
 		<relationship name="sounds">
 			<destination>{d710c9c5-9d8b-4985-8d27-fae4ff45daf4}</destination>
 			<destination>{eb1c83e8-bb98-4837-9231-09bfeec025c4}</destination>
+			<destination>{87c88bd4-c418-4c6d-b2a1-ff008aa1e1fc}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{2f41293b-c51d-4df4-aeb9-84584a2ff1a4}">
@@ -136,6 +137,11 @@
 	<object class="EventSound" id="{eb1c83e8-bb98-4837-9231-09bfeec025c4}">
 		<relationship name="event">
 			<destination>{227c1afa-5f65-4d62-a84f-6d4fe938049a}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{87c88bd4-c418-4c6d-b2a1-ff008aa1e1fc}">
+		<relationship name="audioFile">
+			<destination>{e95e95d0-ebad-4513-83ab-ee747339a39b}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{b1eda095-b4df-4993-801f-67cfa5ec042b}">
