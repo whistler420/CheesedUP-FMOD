@@ -5,7 +5,7 @@
 			<value>noise</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{c3b26cd8-9f16-4586-af51-8f7ffd90be6f}</destination>
@@ -64,9 +64,9 @@
 	<object class="MarkerTrack" id="{ea6d8605-acb4-4f85-8433-7071467ec2be}" />
 	<object class="GroupTrack" id="{a0d9d0a2-37ff-492c-92d5-e3af8f69ad72}">
 		<relationship name="modules">
-			<destination>{2fcc9a9f-3839-45c8-8c6f-312cdb55c35f}</destination>
 			<destination>{0dbd8621-cc51-4f2c-a602-2556a4be68af}</destination>
 			<destination>{e401cee6-35f3-4d78-b13b-699d654b50f8}</destination>
+			<destination>{07b1edfb-983c-43bf-9a2e-3fe8cc86c26c}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{c83522f1-e276-49a7-851c-6efe9cd0738b}</destination>
@@ -74,7 +74,7 @@
 	</object>
 	<object class="Timeline" id="{e87d2b15-eff7-4be5-8ca0-c7282c5ccd5e}">
 		<relationship name="modules">
-			<destination>{2fcc9a9f-3839-45c8-8c6f-312cdb55c35f}</destination>
+			<destination>{07b1edfb-983c-43bf-9a2e-3fe8cc86c26c}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{4614c3f5-9526-48e0-90ba-eedc18ee52f6}</destination>
@@ -113,14 +113,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{aa56d301-f863-4e95-be86-986b84d42eff}" />
-	<object class="SingleSound" id="{2fcc9a9f-3839-45c8-8c6f-312cdb55c35f}">
-		<property name="length">
-			<value>140.61712499999999</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{27a1e88e-c058-4c7e-9a47-f456c9579bff}</destination>
-		</relationship>
-	</object>
 	<object class="TransitionSourceSound" id="{0dbd8621-cc51-4f2c-a602-2556a4be68af}">
 		<property name="length">
 			<value>3.5</value>
@@ -131,10 +123,15 @@
 			<value>3.5</value>
 		</property>
 	</object>
-	<object class="EventMixerGroup" id="{c83522f1-e276-49a7-851c-6efe9cd0738b}">
-		<property name="volume">
-			<value>-4</value>
+	<object class="SingleSound" id="{07b1edfb-983c-43bf-9a2e-3fe8cc86c26c}">
+		<property name="length">
+			<value>140.61714285714285</value>
 		</property>
+		<relationship name="audioFile">
+			<destination>{164148a8-0ec5-47d7-9d85-596d0c5f6ede}</destination>
+		</relationship>
+	</object>
+	<object class="EventMixerGroup" id="{c83522f1-e276-49a7-851c-6efe9cd0738b}">
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -210,7 +207,7 @@
 	<object class="MixerBusFader" id="{9676f2c5-3ff1-4760-9160-b991a1682386}" />
 	<object class="ProxyEffect" id="{e448c2cc-e75e-42ff-a291-47ced0ff5caf}">
 		<property name="inputFormat">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<relationship name="preset">
 			<destination>{b4fa979c-25c2-4503-aeea-7935baf1182c}</destination>
