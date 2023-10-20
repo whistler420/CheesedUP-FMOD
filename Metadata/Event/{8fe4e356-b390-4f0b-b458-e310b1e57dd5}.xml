@@ -88,6 +88,7 @@
 			<destination>{41096a23-5ef2-4d4d-bb4b-7c14171a6617}</destination>
 			<destination>{e5f4e4c5-9eaf-40b6-9e82-462612ce828a}</destination>
 			<destination>{09848b0c-e977-4e6f-97eb-3e3498e22005}</destination>
+			<destination>{85ec2494-26af-48bf-b01c-a7607a71f47d}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{95d03963-f678-44a9-93f2-ca184cf26de6}</destination>
@@ -120,6 +121,7 @@
 			<destination>{09848b0c-e977-4e6f-97eb-3e3498e22005}</destination>
 			<destination>{baf7f74c-a209-4ed9-a6fd-20d00172b4a6}</destination>
 			<destination>{7437e0aa-cef6-4317-a958-ad25c756b955}</destination>
+			<destination>{85ec2494-26af-48bf-b01c-a7607a71f47d}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{e4800b30-85bf-4f75-abcd-f73171a4ad16}">
@@ -226,6 +228,20 @@
 			<destination>{5d83a94f-9860-4abe-893d-738112f97c7d}</destination>
 		</relationship>
 	</object>
+	<object class="SingleSound" id="{85ec2494-26af-48bf-b01c-a7607a71f47d}">
+		<property name="start">
+			<value>6.6400000000000006</value>
+		</property>
+		<property name="length">
+			<value>0.39999999999999991</value>
+		</property>
+		<property name="pitch">
+			<value>5</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{a2b55e94-5eb3-4e26-9ad0-e78178f703b4}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{95d03963-f678-44a9-93f2-ca184cf26de6}">
 		<property name="name">
 			<value>Audio 2</value>
@@ -278,7 +294,7 @@
 	</object>
 	<object class="SingleSound" id="{7437e0aa-cef6-4317-a958-ad25c756b955}">
 		<property name="start">
-			<value>5.5</value>
+			<value>5.4800000000000004</value>
 		</property>
 		<property name="length">
 			<value>8.1559863945578108</value>
@@ -436,7 +452,7 @@
 	<object class="MixerBusFader" id="{604ce747-b3cb-4869-baf0-b2fdff688e39}" />
 	<object class="AutomationPoint" id="{a954389e-54c2-4377-ae26-7023cfe9949f}">
 		<property name="position">
-			<value>5.5</value>
+			<value>5.4800000000000004</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -447,7 +463,7 @@
 	</object>
 	<object class="AutomationPoint" id="{c51cf501-5bfc-41c3-9460-5ae248b7e8cc}">
 		<property name="position">
-			<value>7.04</value>
+			<value>7.0200000000000005</value>
 		</property>
 		<property name="value">
 			<value>1</value>
