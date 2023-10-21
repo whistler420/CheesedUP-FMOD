@@ -70,7 +70,7 @@
 	<object class="MarkerTrack" id="{8716cf98-adc6-48b3-b13a-586c061f62d4}" />
 	<object class="GroupTrack" id="{8408e8a7-7ecf-4d76-86a1-022b277c7271}">
 		<relationship name="modules">
-			<destination>{65ef695d-cac5-47b3-8bd1-42c845118151}</destination>
+			<destination>{94df5cde-0659-4d80-92a0-078857d0d450}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{513fa823-3677-49bc-a797-6b47a551d115}</destination>
@@ -78,7 +78,7 @@
 	</object>
 	<object class="Timeline" id="{855bcfb5-67ce-4e1e-bf1c-c3f2f4a8a84b}">
 		<relationship name="modules">
-			<destination>{65ef695d-cac5-47b3-8bd1-42c845118151}</destination>
+			<destination>{94df5cde-0659-4d80-92a0-078857d0d450}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{ec5282c0-1909-48eb-9eee-3da35d130b39}">
@@ -98,20 +98,17 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ebf25ebc-6d88-4a3d-ba1c-219cf9aa3257}" />
-	<object class="SingleSound" id="{65ef695d-cac5-47b3-8bd1-42c845118151}">
-		<property name="length">
-			<value>3.4994374230295588</value>
-		</property>
+	<object class="SingleSound" id="{94df5cde-0659-4d80-92a0-078857d0d450}">
 		<property name="timelockedOffset">
-			<value>0.077458410303776676</value>
+			<value>0.040000000000000001</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{b8899772-3394-44cd-8c76-f7ce2ffd3c87}</destination>
+			<destination>{9b75c644-6da7-460e-ba9e-ae7ef2d5320a}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{513fa823-3677-49bc-a797-6b47a551d115}">
 		<property name="volume">
-			<value>-9</value>
+			<value>3</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -143,7 +140,7 @@
 	<object class="MixerBusFader" id="{2fe85ddb-6ce9-44ce-bbe1-dbc73c938d25}" />
 	<object class="ProxyEffect" id="{63e322bb-8c09-441f-9f02-e4e4a0cbb84f}">
 		<property name="inputFormat">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<relationship name="preset">
 			<destination>{544615da-5f6b-4e23-8fe1-24657667d5fd}</destination>
