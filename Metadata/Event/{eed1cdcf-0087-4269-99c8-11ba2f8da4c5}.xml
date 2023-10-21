@@ -303,9 +303,15 @@
 		<property name="looping">
 			<value>true</value>
 		</property>
+		<property name="playlistMode">
+			<value>1</value>
+		</property>
 		<relationship name="sounds">
 			<destination>{3a5421cf-ebc2-4242-872a-60880c70cf2d}</destination>
 			<destination>{df2f721b-6706-4990-a950-eed3408eb460}</destination>
+		</relationship>
+		<relationship name="playPercentages">
+			<destination>{ba9c5cac-5505-4251-bad7-d65ddc5172ed}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{3d304ed3-30d7-4ca8-a313-7bb52f96808b}">
@@ -455,7 +461,7 @@
 			<value>0</value>
 		</property>
 		<property name="length">
-			<value>256</value>
+			<value>255.94151927437642</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{f9cfac53-2134-4cb0-ac08-6124edc9bfd3}</destination>
@@ -533,13 +539,27 @@
 		</relationship>
 	</object>
 	<object class="EventSound" id="{3a5421cf-ebc2-4242-872a-60880c70cf2d}">
+		<property name="volume">
+			<value>2</value>
+		</property>
 		<relationship name="event">
 			<destination>{41e68276-9a06-43d5-ada1-02e36411d70e}</destination>
 		</relationship>
 	</object>
 	<object class="EventSound" id="{df2f721b-6706-4990-a950-eed3408eb460}">
+		<property name="volume">
+			<value>1</value>
+		</property>
 		<relationship name="event">
 			<destination>{4d69683f-eece-4ba1-9840-3997df560bc6}</destination>
+		</relationship>
+	</object>
+	<object class="PlayPercentage" id="{ba9c5cac-5505-4251-bad7-d65ddc5172ed}">
+		<property name="percentage">
+			<value>25</value>
+		</property>
+		<relationship name="sound">
+			<destination>{df2f721b-6706-4990-a950-eed3408eb460}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{92f31d28-762f-4300-951d-a4b0dfc35f32}">

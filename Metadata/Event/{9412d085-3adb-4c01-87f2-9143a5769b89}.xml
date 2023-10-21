@@ -150,7 +150,7 @@
 	</object>
 	<object class="MultiSound" id="{47b19234-b04e-4424-a04f-9a91e4561f72}">
 		<property name="color">
-			<value>Purple</value>
+			<value>Yellow Light 1</value>
 		</property>
 		<property name="isAsync">
 			<value>true</value>
@@ -177,7 +177,7 @@
 	</object>
 	<object class="MultiSound" id="{5dffbc0e-2771-4cca-b08f-dff82673d596}">
 		<property name="color">
-			<value>Yellow</value>
+			<value>Yellow Light 2</value>
 		</property>
 		<property name="isAsync">
 			<value>true</value>
@@ -228,17 +228,26 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{65ea928f-6e6d-4542-9cd4-892b947c5ca1}">
+		<property name="color">
+			<value>Yellow</value>
+		</property>
 		<property name="start">
 			<value>510.072</value>
 		</property>
 		<property name="length">
 			<value>161.22774999999999</value>
 		</property>
+		<property name="volume">
+			<value>-1</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{377d2135-b873-452a-b856-9d7b3bdc2083}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{a3a5144e-d756-4d3b-8525-8675a7c65c4a}">
+		<property name="volume">
+			<value>1</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -372,7 +381,7 @@
 	</object>
 	<object class="EventSound" id="{4811bf8a-a7e7-4218-b637-3d0631438ab9}">
 		<property name="volume">
-			<value>-4</value>
+			<value>-1</value>
 		</property>
 		<relationship name="event">
 			<destination>{5953c5e5-0426-4834-baf4-e830af91e8b7}</destination>
@@ -389,9 +398,6 @@
 		</relationship>
 	</object>
 	<object class="EventSound" id="{0a21a976-f727-4bac-8360-26a147025dd4}">
-		<property name="volume">
-			<value>-5</value>
-		</property>
 		<relationship name="event">
 			<destination>{b63125b4-2040-4557-b247-7a84e61eedfe}</destination>
 		</relationship>
