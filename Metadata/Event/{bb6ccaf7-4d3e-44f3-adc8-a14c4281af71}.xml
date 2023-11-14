@@ -25,6 +25,7 @@
 		<relationship name="markerTracks">
 			<destination>{ea17f6b8-3adb-42ee-8ae0-fa3520a75341}</destination>
 			<destination>{b3f0885f-70f5-4f03-801b-9ff66452aab0}</destination>
+			<destination>{a0af82f8-8f1b-478a-ad68-0879c78750f3}</destination>
 		</relationship>
 		<relationship name="groupTracks">
 			<destination>{abe4de3d-b258-4798-a316-3bf34d9a8d08}</destination>
@@ -70,6 +71,7 @@
 	<object class="EventAutomatableProperties" id="{15eaaca8-0833-483f-9323-a40bdad4b8d3}" />
 	<object class="MarkerTrack" id="{ea17f6b8-3adb-42ee-8ae0-fa3520a75341}" />
 	<object class="MarkerTrack" id="{b3f0885f-70f5-4f03-801b-9ff66452aab0}" />
+	<object class="MarkerTrack" id="{a0af82f8-8f1b-478a-ad68-0879c78750f3}" />
 	<object class="GroupTrack" id="{abe4de3d-b258-4798-a316-3bf34d9a8d08}">
 		<relationship name="modules">
 			<destination>{1767468c-33b5-4ac2-b98d-e418a52e037b}</destination>
@@ -105,6 +107,7 @@
 			<destination>{956035bb-c70d-4a52-af97-439c16cacc45}</destination>
 			<destination>{3113727e-46ad-4fe0-a8d3-1e31b59aa493}</destination>
 			<destination>{81e774ff-df30-4e5e-b8be-844ac327f9b1}</destination>
+			<destination>{0aa97fb7-7d83-41a7-9bcc-5fc06756e04d}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{9a1cb0bf-b06b-4ccc-8f97-d25c2dc6dfaf}">
@@ -441,6 +444,20 @@
 		</relationship>
 		<relationship name="transitionTimeline">
 			<destination>{ed087a45-be58-4c4b-89ec-f7c5cded9dcc}</destination>
+		</relationship>
+	</object>
+	<object class="TempoMarker" id="{0aa97fb7-7d83-41a7-9bcc-5fc06756e04d}">
+		<property name="position">
+			<value>200</value>
+		</property>
+		<property name="tempo">
+			<value>175</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{34080467-cebc-4bcf-bf1d-0e4aca165b85}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{a0af82f8-8f1b-478a-ad68-0879c78750f3}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{fe9abd2f-fec9-4572-981d-f3e1f0c3df39}">
