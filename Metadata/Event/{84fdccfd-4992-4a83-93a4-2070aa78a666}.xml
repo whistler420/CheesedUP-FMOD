@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{84fdccfd-4992-4a83-93a4-2070aa78a666}">
 		<property name="name">
-			<value>tropical</value>
+			<value>22 tropical</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,12 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{801528db-820e-4751-a8c8-9facdff54cf9}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{29c213c2-a1cd-4dce-b85e-013b2cbf0f55}</destination>
+			<destination>{bb00fd36-0ce9-424c-9254-592eea02bec5}</destination>
+			<destination>{fad4ce5b-6a96-4237-bc99-3ed1c1574a57}</destination>
+			<destination>{d378d9eb-12ce-466b-af05-2f88e8b6e544}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +79,38 @@
 		<relationship name="markers">
 			<destination>{a54c95a0-ae72-46da-9f93-6555a8eadf30}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{29c213c2-a1cd-4dce-b85e-013b2cbf0f55}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Tropical Crust</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{bb00fd36-0ce9-424c-9254-592eea02bec5}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>MrSauceman</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{fad4ce5b-6a96-4237-bc99-3ed1c1574a57}">
+		<property name="key">
+			<value>game</value>
+		</property>
+		<property name="value">
+			<value>Pizza Tower</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{d378d9eb-12ce-466b-af05-2f88e8b6e544}">
+		<property name="key">
+			<value>order</value>
+		</property>
+		<property name="value">
+			<value>22</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{64fb2098-ff83-4676-a45c-4b6dcf556354}">
 		<relationship name="effectChain">

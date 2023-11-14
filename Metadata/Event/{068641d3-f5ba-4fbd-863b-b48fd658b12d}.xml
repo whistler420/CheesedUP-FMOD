@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{068641d3-f5ba-4fbd-863b-b48fd658b12d}">
 		<property name="name">
-			<value>secretcotton</value>
+			<value>S01 secretcotton</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,11 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{1ab21327-947e-4f75-993b-3baa73874d29}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{f06140f8-4ad0-4750-a084-f28e2a169e61}</destination>
+			<destination>{e01ed5a0-c7c1-436b-bfb0-d8f1e94249ec}</destination>
+			<destination>{c9bf3c54-9d40-45a9-8a63-2c95d6f7dd3e}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +78,30 @@
 		<relationship name="markers">
 			<destination>{e0679174-4049-47ec-af24-6d62d185bbbf}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{f06140f8-4ad0-4750-a084-f28e2a169e61}">
+		<property name="key">
+			<value>order</value>
+		</property>
+		<property name="value">
+			<value>13</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{e01ed5a0-c7c1-436b-bfb0-d8f1e94249ec}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>you've found a steamy surprise.</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{c9bf3c54-9d40-45a9-8a63-2c95d6f7dd3e}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>loypoll</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{f300439f-44c8-4f85-8e51-8c35449ccbc4}">
 		<relationship name="effectChain">

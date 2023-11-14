@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{0c22bd46-93a3-45d4-b182-9061ead10313}">
 		<property name="name">
-			<value>secretwar</value>
+			<value>S05 secretwar</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{ae349c9d-03fa-4d3e-981d-6affec3febf2}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{17f2e2ed-be11-4b13-8be2-93ed01f6dd55}</destination>
+			<destination>{554b4ba3-0004-4800-8f20-35a6532af164}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +77,22 @@
 		<relationship name="markers">
 			<destination>{46e4e156-fe3d-49a4-b5b3-ed3a9b286837}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{17f2e2ed-be11-4b13-8be2-93ed01f6dd55}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>My Secret War Crimes</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{554b4ba3-0004-4800-8f20-35a6532af164}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>loypoll</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{40374b16-ff01-49ff-b408-13f0c053aa16}">
 		<relationship name="effectChain">

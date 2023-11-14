@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{b9d5bc98-269c-41d9-92bb-b06036870220}">
 		<property name="name">
-			<value>forafewtoppings</value>
+			<value>13 forafewtoppings</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{c7a4c7ca-9811-425a-9876-c8d5ad636c43}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{4f957ceb-3e6a-4216-a59b-746dc3c0a169}</destination>
+			<destination>{5bd97371-442c-4f8b-8efc-bbb89a3ff840}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +77,22 @@
 		<relationship name="markers">
 			<destination>{e96c5b48-92f6-4313-84b1-c33f66d51f2a}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{4f957ceb-3e6a-4216-a59b-746dc3c0a169}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>For A Few Toppings More</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{5bd97371-442c-4f8b-8efc-bbb89a3ff840}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>MrSauceman</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{5ad8ffde-338d-43a0-ba2b-bc0e5cfe1552}">
 		<relationship name="effectChain">

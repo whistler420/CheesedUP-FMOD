@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{42187ef3-9059-4161-9392-591924d4c34b}">
 		<property name="name">
-			<value>tombstone</value>
+			<value>16 tombstone</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,12 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{387093d2-afd4-4f80-ad2e-5cb9a9d3fa02}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{ffd190c9-4e83-4d32-b638-375d66ffa4e5}</destination>
+			<destination>{0cd1f341-2dec-4b1e-a1f5-e7ad5a965690}</destination>
+			<destination>{5512b56b-1a5c-45c1-97e1-2a94f46ef8ca}</destination>
+			<destination>{2c76a4ef-6a19-43ab-9f4e-d545cd7f020a}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +79,38 @@
 		<relationship name="markers">
 			<destination>{5fb5360d-63a4-4735-8f8d-fdf2863b3770}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{ffd190c9-4e83-4d32-b638-375d66ffa4e5}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Tombstone Arizona</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{0cd1f341-2dec-4b1e-a1f5-e7ad5a965690}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>MrSauceman</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{5512b56b-1a5c-45c1-97e1-2a94f46ef8ca}">
+		<property name="key">
+			<value>game</value>
+		</property>
+		<property name="value">
+			<value>Pizza Tower</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{2c76a4ef-6a19-43ab-9f4e-d545cd7f020a}">
+		<property name="key">
+			<value>order</value>
+		</property>
+		<property name="value">
+			<value>16</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{6c7b0ca2-37f2-457a-9c08-53ed0fd67680}">
 		<relationship name="effectChain">

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{ce7360ef-3fa1-44c9-be7d-e8bdc3728b07}">
 		<property name="name">
-			<value>mayhem2</value>
+			<value>52 mayhem2</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,12 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{f5d20a4a-01bd-464d-8d40-160664db6f52}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{194fc183-cb03-4747-aced-0c2adb2c9ab3}</destination>
+			<destination>{225212c5-a46f-42e4-aaea-a10f168eba66}</destination>
+			<destination>{e90d8f61-cfda-4799-a477-384219d20019}</destination>
+			<destination>{ca0f8c05-faf1-4699-bfcc-93aa24936566}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +79,38 @@
 		<relationship name="markers">
 			<destination>{47084315-a047-4bff-adae-6270ab7b086f}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{194fc183-cb03-4747-aced-0c2adb2c9ab3}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Pizza Mayhem</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{225212c5-a46f-42e4-aaea-a10f168eba66}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>MrSauceman</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{e90d8f61-cfda-4799-a477-384219d20019}">
+		<property name="key">
+			<value>game</value>
+		</property>
+		<property name="value">
+			<value>Pizza Tower</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{ca0f8c05-faf1-4699-bfcc-93aa24936566}">
+		<property name="key">
+			<value>order</value>
+		</property>
+		<property name="value">
+			<value>52</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{67e3e2cd-79b8-4bc5-ba66-3ae2bcbb170c}">
 		<relationship name="effectChain">

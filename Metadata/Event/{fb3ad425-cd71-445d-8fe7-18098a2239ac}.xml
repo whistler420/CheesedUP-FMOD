@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{fb3ad425-cd71-445d-8fe7-18098a2239ac}">
 		<property name="name">
-			<value>crunchy</value>
+			<value>01 crunchy</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{01b8b739-83a5-4b67-aef8-a627220b3cb9}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{3254227e-edc4-4ead-83c4-14be14d005c8}</destination>
+			<destination>{7efc3556-de34-4a88-a278-374f6cb03a03}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +77,22 @@
 		<relationship name="markers">
 			<destination>{cdc77785-8001-4f02-b769-f12897a60da6}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{3254227e-edc4-4ead-83c4-14be14d005c8}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Down-To-Noise</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{7efc3556-de34-4a88-a278-374f6cb03a03}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>RodMod</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{8579332c-3fe2-4afd-a911-627d385fbb50}">
 		<relationship name="effectChain">

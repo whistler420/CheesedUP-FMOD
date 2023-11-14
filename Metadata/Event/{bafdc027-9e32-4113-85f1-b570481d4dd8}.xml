@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{bafdc027-9e32-4113-85f1-b570481d4dd8}">
 		<property name="name">
-			<value>entranceSN</value>
+			<value>02 entranceSN</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{13bf09c9-8b51-43d4-9fb2-be3a7765c50d}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{64d9bdd2-84e2-4f42-9ef6-80da9d8c3cd3}</destination>
+			<destination>{7d81b3bf-7cbd-4e91-b84a-f32b0331d129}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +77,22 @@
 		<relationship name="markers">
 			<destination>{011b435c-a0f9-4b6e-aaf7-a08b575a3b77}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{64d9bdd2-84e2-4f42-9ef6-80da9d8c3cd3}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Pizzano's Obligatory Orchestral Play</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{7d81b3bf-7cbd-4e91-b84a-f32b0331d129}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>PaperKitty</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{58371268-41ca-49f6-91e4-3a10d835999e}">
 		<relationship name="effectChain">

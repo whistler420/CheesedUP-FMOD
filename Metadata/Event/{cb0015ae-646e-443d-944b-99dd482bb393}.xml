@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{cb0015ae-646e-443d-944b-99dd482bb393}">
 		<property name="name">
-			<value>lapBN</value>
+			<value>18 lapBN</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{24d49a50-2c18-4ff7-bde8-34cdd60eb7ca}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{9f4cba29-e6a9-43e3-9ba0-2c592b4b188e}</destination>
+			<destination>{ea80eb53-9102-40c4-bd4d-3424f28bc279}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +77,22 @@
 		<relationship name="markers">
 			<destination>{8d31194e-0df7-4525-9fc9-42cce90ef14d}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{9f4cba29-e6a9-43e3-9ba0-2c592b4b188e}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>bo noise rap</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{ea80eb53-9102-40c4-bd4d-3424f28bc279}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>Fuckface</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{9663383d-2faa-43ab-b4ae-c338cc506a01}">
 		<relationship name="effectChain">

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{7f05fe24-134a-417c-ad44-e1b567a8bdf3}">
 		<property name="name">
-			<value>vigilante</value>
+			<value>20 vigilante</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,12 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{3a518a1b-a131-4da2-9cad-7873957809e3}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{aaeb00b2-e3d4-4c27-8b0f-2624b63e5cc3}</destination>
+			<destination>{f416e291-84db-4136-aac8-a268e9079071}</destination>
+			<destination>{0cafd6b0-454b-420e-a01c-d240b7ed14cb}</destination>
+			<destination>{be8b3ca9-fcb6-4908-8751-ad57244ab1ff}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +79,38 @@
 		<relationship name="markers">
 			<destination>{61f2731f-28ea-4423-b469-5ba1a47438c3}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{aaeb00b2-e3d4-4c27-8b0f-2624b63e5cc3}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Calzonification</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{f416e291-84db-4136-aac8-a268e9079071}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>MrSauceman</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{0cafd6b0-454b-420e-a01c-d240b7ed14cb}">
+		<property name="key">
+			<value>game</value>
+		</property>
+		<property name="value">
+			<value>Pizza Tower</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{be8b3ca9-fcb6-4908-8751-ad57244ab1ff}">
+		<property name="key">
+			<value>order</value>
+		</property>
+		<property name="value">
+			<value>20</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{a2c81dd4-a5b2-4d2a-bf13-23dd0584e5db}">
 		<relationship name="effectChain">

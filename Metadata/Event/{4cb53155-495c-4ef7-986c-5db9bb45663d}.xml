@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{4cb53155-495c-4ef7-986c-5db9bb45663d}">
 		<property name="name">
-			<value>mort</value>
+			<value>17 mort</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,12 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{fb34c4ab-d27a-4104-89a7-a6987de753d5}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{4a7b5ac4-cdaf-4fe2-994e-fe59781b9bbe}</destination>
+			<destination>{6e6bde94-ba64-4033-ab17-008c9f47ab4f}</destination>
+			<destination>{a4df0453-4fa3-40ec-9476-53bc2ae5ddc2}</destination>
+			<destination>{b1b0e04d-da9e-447e-a5c1-9113c62491d9}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +79,38 @@
 		<relationship name="markers">
 			<destination>{526205a5-7c0f-4643-be94-5129266f3919}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{4a7b5ac4-cdaf-4fe2-994e-fe59781b9bbe}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Mort's Farm</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{6e6bde94-ba64-4033-ab17-008c9f47ab4f}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>ClascyJitto</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{a4df0453-4fa3-40ec-9476-53bc2ae5ddc2}">
+		<property name="key">
+			<value>game</value>
+		</property>
+		<property name="value">
+			<value>Pizza Tower</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{b1b0e04d-da9e-447e-a5c1-9113c62491d9}">
+		<property name="key">
+			<value>order</value>
+		</property>
+		<property name="value">
+			<value>17</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{d6b93fef-2b3f-4fdd-9fa1-a8a5d6014b87}">
 		<relationship name="effectChain">

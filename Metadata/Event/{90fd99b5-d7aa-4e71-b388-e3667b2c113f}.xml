@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{90fd99b5-d7aa-4e71-b388-e3667b2c113f}">
 		<property name="name">
-			<value>secretmansion</value>
+			<value>S06 secretmansion</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{e9b15328-9c6e-4d26-b07b-ce58eff8c7a5}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{898d9ac2-3911-4e97-b16b-e751ad556744}</destination>
+			<destination>{e1abef9e-bb5d-42c9-aae2-3bef6c5b2854}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +77,22 @@
 		<relationship name="markers">
 			<destination>{e8f91697-1d6e-4abb-93cf-eb92fafd0e6b}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{898d9ac2-3911-4e97-b16b-e751ad556744}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>A Pepperoni Secret</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{e1abef9e-bb5d-42c9-aae2-3bef6c5b2854}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>loypoll</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{82cdf162-4e9b-45c8-b8c3-a0c7454b702f}">
 		<relationship name="effectChain">

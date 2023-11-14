@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{973c3bfc-1e79-40b4-b452-a31cf74a201a}">
 		<property name="name">
-			<value>distasteful</value>
+			<value>11 distasteful</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{ba80be27-790a-4c78-96ca-16ddddfbe172}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{1c7afa70-6521-4f7b-8775-18e29626ffbd}</destination>
+			<destination>{bce0e7f9-2584-433d-98fe-51536391d57f}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +77,22 @@
 		<relationship name="markers">
 			<destination>{e79dbf6b-0b8b-469a-bf03-7abfbb2b6e19}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{1c7afa70-6521-4f7b-8775-18e29626ffbd}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Distasteful Anchovi</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{bce0e7f9-2584-433d-98fe-51536391d57f}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>ClascyJitto</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{e9e99ddc-208e-48cc-9e72-815f4cffed24}">
 		<relationship name="effectChain">

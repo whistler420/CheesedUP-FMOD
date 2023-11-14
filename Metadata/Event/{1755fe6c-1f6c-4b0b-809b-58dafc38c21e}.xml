@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{1755fe6c-1f6c-4b0b-809b-58dafc38c21e}">
 		<property name="name">
-			<value>tuesdays</value>
+			<value>13 tuesdays</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,12 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{1ce07555-c791-493b-9d70-095fad4ac549}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{fa46416c-f585-4770-a272-96da8254a2ef}</destination>
+			<destination>{c24abd83-ce45-44b3-a224-d53556a6108c}</destination>
+			<destination>{b4883150-3e31-461a-9ec5-ad0a1965e95d}</destination>
+			<destination>{93c24b98-9374-4960-9c8e-6a7549018952}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +79,38 @@
 		<relationship name="markers">
 			<destination>{a5e4cc8e-a4c1-48a8-89e1-e6c1a9efbe71}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{fa46416c-f585-4770-a272-96da8254a2ef}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Tuesdays</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{c24abd83-ce45-44b3-a224-d53556a6108c}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>MrSauceman</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{b4883150-3e31-461a-9ec5-ad0a1965e95d}">
+		<property name="key">
+			<value>game</value>
+		</property>
+		<property name="value">
+			<value>Pizza Tower</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{93c24b98-9374-4960-9c8e-6a7549018952}">
+		<property name="key">
+			<value>order</value>
+		</property>
+		<property name="value">
+			<value>13</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{476df73a-70f8-42f8-9e1a-f399f50b4138}">
 		<relationship name="effectChain">

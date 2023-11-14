@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{dbf45ac4-d13c-47af-ba04-e61120c36bbc}">
 		<property name="name">
-			<value>noise</value>
+			<value>28 noise</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,12 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{a5ecb6d9-0085-41d6-baa7-2972bf5ce6c7}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{f6b20c36-aa14-46e3-bfe4-4db2f00ef0bd}</destination>
+			<destination>{82c61389-7405-47bb-b19e-e6dcff082800}</destination>
+			<destination>{600cc08f-ae4e-4ca0-b96d-bc6b1d1ee2cb}</destination>
+			<destination>{0292c480-8375-47a2-b7d4-924f19f0cf64}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +79,38 @@
 		<relationship name="markers">
 			<destination>{b6af913f-88af-421d-8eaf-1a1f32112d1a}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{f6b20c36-aa14-46e3-bfe4-4db2f00ef0bd}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Pumpin' Hot Stuff</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{82c61389-7405-47bb-b19e-e6dcff082800}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>MrSauceman</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{600cc08f-ae4e-4ca0-b96d-bc6b1d1ee2cb}">
+		<property name="key">
+			<value>game</value>
+		</property>
+		<property name="value">
+			<value>Pizza Tower</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{0292c480-8375-47a2-b7d4-924f19f0cf64}">
+		<property name="key">
+			<value>order</value>
+		</property>
+		<property name="value">
+			<value>28</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{eb1abb70-cf37-46cb-98fc-b13ee6068f5c}">
 		<relationship name="effectChain">

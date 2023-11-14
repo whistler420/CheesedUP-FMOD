@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{aaacbeb9-68a8-49c8-8caa-681fb5b18cf2}">
 		<property name="name">
-			<value>lap3</value>
+			<value>19 lap3</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{bb3383d8-58da-4720-b02c-ef52c048e792}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{c0c40ae1-03d1-43a4-b3dd-2753552e608a}</destination>
+			<destination>{881c8545-ca8a-49d5-b1e9-38aa3f7f511b}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +77,22 @@
 		<relationship name="markers">
 			<destination>{d3642877-76ce-49ff-b508-101e6b932162}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{c0c40ae1-03d1-43a4-b3dd-2753552e608a}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Pillar John's Revenge</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{881c8545-ca8a-49d5-b1e9-38aa3f7f511b}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>Vozaxhi</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{73f25203-5018-4f70-b31d-8f580f12e466}">
 		<relationship name="effectChain">

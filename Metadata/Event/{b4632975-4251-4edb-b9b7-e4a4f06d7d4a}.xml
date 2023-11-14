@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{b4632975-4251-4edb-b9b7-e4a4f06d7d4a}">
 		<property name="name">
-			<value>secretstreet</value>
+			<value>S13 secretstreet</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{fbe7ca8d-5922-445c-850a-a5e54773149d}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{261ad7a5-ba8c-4db6-aae2-395cac9230ad}</destination>
+			<destination>{e5b1985f-40fd-4811-a767-664ea0aca104}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +77,22 @@
 		<relationship name="markers">
 			<destination>{1b6c4f56-9815-4a7c-b0c0-5ae3ba6061c1}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{261ad7a5-ba8c-4db6-aae2-395cac9230ad}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>A Secret In These Streets</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{e5b1985f-40fd-4811-a767-664ea0aca104}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>MrSauceman</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{92213c4b-357b-4c45-b67c-94218b134ec6}">
 		<relationship name="effectChain">

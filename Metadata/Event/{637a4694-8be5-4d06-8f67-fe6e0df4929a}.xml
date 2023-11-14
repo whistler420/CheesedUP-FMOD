@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{637a4694-8be5-4d06-8f67-fe6e0df4929a}">
 		<property name="name">
-			<value>unexpectancy2</value>
+			<value>44 unexpectancy2</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,12 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{798f322f-97b6-40db-ad29-4f6bed414f5e}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{2ff358cc-3c25-4cdf-b0f0-9c81eb5c62c7}</destination>
+			<destination>{545ace18-a4e0-4ecc-b441-bf52e2da96ab}</destination>
+			<destination>{0a3d3f1c-eb66-4f80-af34-7f343b868ef8}</destination>
+			<destination>{d49aa201-6abf-44b9-b4aa-f791c459da00}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +79,38 @@
 		<relationship name="markers">
 			<destination>{e6b41c93-5883-4481-b95d-120f47365873}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{2ff358cc-3c25-4cdf-b0f0-9c81eb5c62c7}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Unexpectancy, Part 2</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{545ace18-a4e0-4ecc-b441-bf52e2da96ab}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>MrSauceman</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{0a3d3f1c-eb66-4f80-af34-7f343b868ef8}">
+		<property name="key">
+			<value>game</value>
+		</property>
+		<property name="value">
+			<value>Pizza Tower</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{d49aa201-6abf-44b9-b4aa-f791c459da00}">
+		<property name="key">
+			<value>order</value>
+		</property>
+		<property name="value">
+			<value>44</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{d3a530c0-e3ac-44d5-9129-000a56970814}">
 		<relationship name="effectChain">

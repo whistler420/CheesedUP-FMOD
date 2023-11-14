@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{a965ddef-09a7-4da6-a27e-c4aa2badebb4}">
 		<property name="name">
-			<value>escapeSN</value>
+			<value>04 escapeSN</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{70deed70-5b72-41dc-af05-f56d9ee95ac3}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{0a15cf3c-a386-4908-be81-732cc4655bd8}</destination>
+			<destination>{ed23f9ac-6897-4b5a-9e1d-a84e41797efb}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +77,22 @@
 		<relationship name="markers">
 			<destination>{723254b9-2a53-417e-8f4f-a7644298a0d5}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{0a15cf3c-a386-4908-be81-732cc4655bd8}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Blue Licorice</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{ed23f9ac-6897-4b5a-9e1d-a84e41797efb}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>PaperKitty</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{9b4547d7-d81d-4b54-a54e-a0485813f26e}">
 		<relationship name="effectChain">

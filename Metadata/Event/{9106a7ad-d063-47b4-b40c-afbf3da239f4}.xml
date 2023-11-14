@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{9106a7ad-d063-47b4-b40c-afbf3da239f4}">
 		<property name="name">
-			<value>snickchallenge</value>
+			<value>05 snickchallenge</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{59465db0-bfc5-41e5-a5e3-88700192391d}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{28e5fee6-2c43-45a7-9032-4e4f1d3736d1}</destination>
+			<destination>{da210db5-bd76-4302-a207-a70f1e06568f}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +77,22 @@
 		<relationship name="markers">
 			<destination>{ad3bbd42-2a9a-42b0-832e-6c61a4425594}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{28e5fee6-2c43-45a7-9032-4e4f1d3736d1}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Spooky Apartment Escape</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{da210db5-bd76-4302-a207-a70f1e06568f}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>ClascyJitto</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{9949004d-4271-46e3-9684-f9ff16a5aa94}">
 		<relationship name="effectChain">

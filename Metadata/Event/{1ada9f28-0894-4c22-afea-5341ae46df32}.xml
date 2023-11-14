@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{1ada9f28-0894-4c22-afea-5341ae46df32}">
 		<property name="name">
-			<value>secretspace</value>
+			<value>S12 secretspace</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{88099a1f-bbe0-4e53-9393-972fd0f3d2ff}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{526f752f-1921-4d63-907d-6472fdedd022}</destination>
+			<destination>{0c9bb8b2-d04c-4e3b-bfbd-49f45b937c75}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +77,22 @@
 		<relationship name="markers">
 			<destination>{754c7478-b52e-4681-9720-3d60bae05a18}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{526f752f-1921-4d63-907d-6472fdedd022}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>An Interstellar Secret</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{0c9bb8b2-d04c-4e3b-bfbd-49f45b937c75}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>ClascyJitto</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{97df8692-935f-42d8-818b-5efe9ce7ff61}">
 		<relationship name="effectChain">

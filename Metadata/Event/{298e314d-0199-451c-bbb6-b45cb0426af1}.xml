@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{298e314d-0199-451c-bbb6-b45cb0426af1}">
 		<property name="name">
-			<value>putonashow</value>
+			<value>10 putonashow</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,12 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{0434d253-395d-4738-a97b-8e068ff3ba9d}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{9b179755-106d-453e-a573-1efb79be3ff8}</destination>
+			<destination>{96abcd38-26a2-467d-a43c-8ac25addaada}</destination>
+			<destination>{fb7c7757-ab9f-4df0-b4fe-1954acab9bce}</destination>
+			<destination>{8875b43c-bf08-47ad-aab3-eb1270171c5c}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +79,38 @@
 		<relationship name="markers">
 			<destination>{4ffd4e49-3fc6-48bc-81b9-3e1d145681e7}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{9b179755-106d-453e-a573-1efb79be3ff8}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Put On A Show!!</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{96abcd38-26a2-467d-a43c-8ac25addaada}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>ClascyJitto</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{fb7c7757-ab9f-4df0-b4fe-1954acab9bce}">
+		<property name="key">
+			<value>game</value>
+		</property>
+		<property name="value">
+			<value>Pizza Tower</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{8875b43c-bf08-47ad-aab3-eb1270171c5c}">
+		<property name="key">
+			<value>order</value>
+		</property>
+		<property name="value">
+			<value>10</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{3dc0b0c4-d29a-456a-a09a-75675f15a4d2}">
 		<relationship name="effectChain">

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{12583c82-9a8f-4636-b7d5-5002df0a6f8e}">
 		<property name="name">
-			<value>oregano</value>
+			<value>14 oregano</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,12 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{a1b02bb3-f339-4570-ba1b-79f0563e9997}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{4d33203b-53ba-4cb1-b3a7-f111543e5d89}</destination>
+			<destination>{5f96bf77-dd97-4d21-980e-39bd6e541246}</destination>
+			<destination>{d8d3e6e6-f6ea-44e4-8f14-f61d722d9a11}</destination>
+			<destination>{f672caa1-719d-4781-9200-af97eac6e4a1}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +79,38 @@
 		<relationship name="markers">
 			<destination>{e8bcd706-a977-4b21-aa5f-e88dc799f545}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{4d33203b-53ba-4cb1-b3a7-f111543e5d89}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Oregano Mirage</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{5f96bf77-dd97-4d21-980e-39bd6e541246}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>ClascyJitto</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{d8d3e6e6-f6ea-44e4-8f14-f61d722d9a11}">
+		<property name="key">
+			<value>game</value>
+		</property>
+		<property name="value">
+			<value>Pizza Tower</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{f672caa1-719d-4781-9200-af97eac6e4a1}">
+		<property name="key">
+			<value>order</value>
+		</property>
+		<property name="value">
+			<value>14</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{4e882cf5-635a-4364-9382-2a962aed7721}">
 		<relationship name="effectChain">

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{ed218bc2-2679-41d8-8ad7-a2eab10f6824}">
 		<property name="name">
-			<value>glucose</value>
+			<value>03 glucose</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{40fabb2c-2b02-4947-bdc4-8723d2494d92}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{3466b5a8-357a-41fc-a262-65adfcb161c9}</destination>
+			<destination>{f582f848-82bf-4b61-b1dc-8030066f9d00}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +77,22 @@
 		<relationship name="markers">
 			<destination>{6f0b9318-8aee-4423-8cb3-b5d0e9d31ead}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{3466b5a8-357a-41fc-a262-65adfcb161c9}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Glucose Getaway</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{f582f848-82bf-4b61-b1dc-8030066f9d00}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>RodMod</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{9a403eb7-b427-4486-9a44-9c84f8bc42e6}">
 		<relationship name="effectChain">

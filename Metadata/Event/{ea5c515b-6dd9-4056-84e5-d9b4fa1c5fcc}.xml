@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{ea5c515b-6dd9-4056-84e5-d9b4fa1c5fcc}">
 		<property name="name">
-			<value>funiculi</value>
+			<value>02 funiculi</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,11 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{084a8393-07e3-4fcf-a23d-99a520db0caa}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{f0204dd7-e8b8-4cd3-ba69-f82f66058110}</destination>
+			<destination>{d7fb6392-8d5e-4b38-9028-7efd15675c9f}</destination>
+			<destination>{0e90a2d5-bd36-4ff5-ac29-8a9387fa0eef}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +78,30 @@
 		<relationship name="markers">
 			<destination>{b35dfbd8-f8fd-482d-9264-cb5a7d4e80f7}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{f0204dd7-e8b8-4cd3-ba69-f82f66058110}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>funiculi holiday</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{d7fb6392-8d5e-4b38-9028-7efd15675c9f}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>ClascyJitto</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{0e90a2d5-bd36-4ff5-ac29-8a9387fa0eef}">
+		<property name="key">
+			<value>game</value>
+		</property>
+		<property name="value">
+			<value>Pizza Tower</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{8824dbb2-bcdf-440e-a1ab-67313303fb01}">
 		<relationship name="effectChain">

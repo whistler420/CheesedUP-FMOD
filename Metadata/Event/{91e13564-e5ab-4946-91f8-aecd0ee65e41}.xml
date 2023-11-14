@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{91e13564-e5ab-4946-91f8-aecd0ee65e41}">
 		<property name="name">
-			<value>secretsewer</value>
+			<value>S16 secretsewer</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{14d0751e-3858-4460-ba29-8d3961f5568c}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{e87afdb1-5799-495f-aed4-eb482056dc62}</destination>
+			<destination>{a2cb4e7e-2fe8-4d96-b983-9cdc40a97683}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +77,22 @@
 		<relationship name="markers">
 			<destination>{289162d3-8faf-49f0-8cfe-831ac77f6bae}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{e87afdb1-5799-495f-aed4-eb482056dc62}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>A Fecal Secret</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{a2cb4e7e-2fe8-4d96-b983-9cdc40a97683}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>ClascyJitto</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{de21a4de-c465-4bfb-8386-e220b6d32379}">
 		<relationship name="effectChain">

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{0f8a717f-dbc4-4ca9-9ef1-a49d36529a4b}">
+		<property name="note" />
 		<property name="name">
-			<value>intro</value>
+			<value>00 intro</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +31,12 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{711b4876-5f24-47cc-bc5e-9115038e4bc6}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{d737061b-69f1-42ba-9223-d0c49bed4d34}</destination>
+			<destination>{90d55738-b064-4cd3-a003-5e180e1d62c8}</destination>
+			<destination>{d79bb08a-ceea-424a-b101-9f1d4d73ae53}</destination>
+			<destination>{3e7f31f4-ca2b-41b4-837c-657a1e5c0dca}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +80,38 @@
 		<relationship name="markers">
 			<destination>{ba6fa1d9-be7c-4187-8375-611f15e65cc5}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{d737061b-69f1-42ba-9223-d0c49bed4d34}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Time For A Smackdown</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{90d55738-b064-4cd3-a003-5e180e1d62c8}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>MrSauceman</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{d79bb08a-ceea-424a-b101-9f1d4d73ae53}">
+		<property name="key">
+			<value>game</value>
+		</property>
+		<property name="value">
+			<value>Pizza Tower</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{3e7f31f4-ca2b-41b4-837c-657a1e5c0dca}">
+		<property name="key">
+			<value>order</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{66e5bf68-410b-4f08-9a10-1988ccfd0528}">
 		<relationship name="effectChain">

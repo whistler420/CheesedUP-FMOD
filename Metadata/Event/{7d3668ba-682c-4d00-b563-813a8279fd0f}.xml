@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{7d3668ba-682c-4d00-b563-813a8279fd0f}">
 		<property name="name">
-			<value>gustavo</value>
+			<value>24 gustavo</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,12 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{d7128285-d98a-4a6d-8d4f-6b61b1a12c26}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{e823e2bd-c6a4-46a3-b8dc-bea19a7f5b73}</destination>
+			<destination>{5c8d6c11-0dcc-439e-96f2-336d0195aea5}</destination>
+			<destination>{747e3493-00be-4133-b503-c7101e83a1ce}</destination>
+			<destination>{ab3fecc9-dd3d-4a41-9269-050fc99ed6a5}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +79,38 @@
 		<relationship name="markers">
 			<destination>{f6672794-8b03-4106-b487-92345c861636}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{e823e2bd-c6a4-46a3-b8dc-bea19a7f5b73}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>gustavo</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{5c8d6c11-0dcc-439e-96f2-336d0195aea5}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>ClascyJitto</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{747e3493-00be-4133-b503-c7101e83a1ce}">
+		<property name="key">
+			<value>game</value>
+		</property>
+		<property name="value">
+			<value>Pizza Tower</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{ab3fecc9-dd3d-4a41-9269-050fc99ed6a5}">
+		<property name="key">
+			<value>order</value>
+		</property>
+		<property name="value">
+			<value>24</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{b703088a-eec1-446c-941f-ba7695e78428}">
 		<relationship name="effectChain">

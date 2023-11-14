@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{0245f092-8c10-473c-9b84-2093dd03bdd2}">
 		<property name="name">
-			<value>5minutes</value>
+			<value>14 5minutes</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{052413db-2676-44a2-aa8e-117e04f07c79}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{1870700d-e4ff-45c3-9eb2-6901b3fdb83b}</destination>
+			<destination>{7f883344-ea7f-47e5-958d-91ba3addcdb6}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +77,22 @@
 		<relationship name="markers">
 			<destination>{469530b1-2e61-4b7a-9b1f-85c7437af12d}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{1870700d-e4ff-45c3-9eb2-6901b3fdb83b}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>06 Minutes Til' Boom!</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{7f883344-ea7f-47e5-958d-91ba3addcdb6}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>[c]ness</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{f3acefc7-9a7e-43a7-a151-66fdf0840d0e}">
 		<relationship name="effectChain">

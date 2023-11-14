@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{f261d8b5-f53a-465a-99b7-af3255d025fd}">
 		<property name="name">
-			<value>dragonlair</value>
+			<value>06 dragonlair</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{ca727b4c-c046-47d0-997b-104cdc6ca709}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{8b503af3-f37c-4cde-b641-f588efb342ad}</destination>
+			<destination>{033e39d6-87cc-4640-bbfd-55a43deb3528}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +77,22 @@
 		<relationship name="markers">
 			<destination>{d32197b2-bc2a-4318-8f9c-3656fadeba49}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{8b503af3-f37c-4cde-b641-f588efb342ad}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Tarragon Pizza</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{033e39d6-87cc-4640-bbfd-55a43deb3528}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>ClascyJitto</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{f3cc7c82-3fd1-4db2-a4c8-5d11099a7b2f}">
 		<relationship name="effectChain">

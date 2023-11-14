@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{63070ea3-6e00-470c-bff1-4f053293b2dd}">
 		<property name="name">
-			<value>fridays</value>
+			<value>39 fridays</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,12 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{3bf70544-238e-44b2-8532-b15c445004be}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{917e859e-c5ed-4552-8d3d-113c8dfbf6cc}</destination>
+			<destination>{c8d7e325-6652-4fad-8935-24bdef21a5af}</destination>
+			<destination>{0ccffad1-e466-41d2-a1d6-b3f77efe6438}</destination>
+			<destination>{83f5a58b-1697-4607-80e2-1133699fae2c}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +79,38 @@
 		<relationship name="markers">
 			<destination>{b7df21e4-6d5c-484c-abdb-3c235640b0bf}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{917e859e-c5ed-4552-8d3d-113c8dfbf6cc}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Fridays</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{c8d7e325-6652-4fad-8935-24bdef21a5af}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>MrSauceman</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{0ccffad1-e466-41d2-a1d6-b3f77efe6438}">
+		<property name="key">
+			<value>game</value>
+		</property>
+		<property name="value">
+			<value>Pizza Tower</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{83f5a58b-1697-4607-80e2-1133699fae2c}">
+		<property name="key">
+			<value>order</value>
+		</property>
+		<property name="value">
+			<value>39</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{bc07be10-4ccc-4e83-a917-959df64ae9b7}">
 		<relationship name="effectChain">

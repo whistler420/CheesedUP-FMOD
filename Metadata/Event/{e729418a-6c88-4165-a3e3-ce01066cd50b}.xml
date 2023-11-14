@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{e729418a-6c88-4165-a3e3-ce01066cd50b}">
 		<property name="name">
-			<value>lostchocolate</value>
+			<value>08 lostchocolate</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{2e17cec6-a13f-41ae-8175-8d9f3ed0f967}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{f833e4ec-8e1e-45f5-9932-695486bc45ed}</destination>
+			<destination>{66fab1f8-dd38-4f5d-a7dc-21a9e579ee86}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +77,22 @@
 		<relationship name="markers">
 			<destination>{ca32264b-74bc-4975-b282-758ef3b8412a}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{f833e4ec-8e1e-45f5-9932-695486bc45ed}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Lost Chocolate</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{66fab1f8-dd38-4f5d-a7dc-21a9e579ee86}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>RodMod, Jessie Productions</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{633073ab-64db-418a-8f3e-b8f9aa407011}">
 		<relationship name="effectChain">

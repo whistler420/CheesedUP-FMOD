@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{1688e232-c9e0-4d39-b46c-4e18e654bd45}">
 		<property name="name">
-			<value>secretfreezer</value>
+			<value>S14 secretfreezer</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{aaaf7603-954f-4f48-b577-675940e1c2e0}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{4eb27da6-1272-440e-8557-690083c34e8d}</destination>
+			<destination>{ee6ddda0-e375-4093-a1b4-bc891628276c}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +77,22 @@
 		<relationship name="markers">
 			<destination>{a20d9b8d-5b06-45f5-bddb-abecf3d4ade3}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{4eb27da6-1272-440e-8557-690083c34e8d}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>A Frozen Secret</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{ee6ddda0-e375-4093-a1b4-bc891628276c}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>ClascyJitto</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{77c8b4d7-3e94-46f4-8951-47d3b1d697f4}">
 		<relationship name="effectChain">

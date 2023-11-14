@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{5a91147d-ec11-49a2-b4e9-f38532f7c5f0}">
 		<property name="name">
-			<value>mansion</value>
+			<value>04 mansion</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{aa7fcd00-8bef-4862-ae60-c393077086cf}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{6d3450f6-dc29-4271-a6c0-fe9cfa1491dc}</destination>
+			<destination>{fdef4fd3-e684-4b8a-9dfe-5b754bef6c2b}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +77,22 @@
 		<relationship name="markers">
 			<destination>{3105cd73-e711-4648-9f9b-203ae909b535}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{6d3450f6-dc29-4271-a6c0-fe9cfa1491dc}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Ground Bound</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{fdef4fd3-e684-4b8a-9dfe-5b754bef6c2b}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>MrSauceman</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{99c250ef-2b7c-442c-b445-366f1e77c63a}">
 		<relationship name="effectChain">

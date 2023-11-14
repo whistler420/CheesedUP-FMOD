@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{24eb76cc-bd86-4e33-821c-baeb4977175a}">
 		<property name="name">
-			<value>secretfactory</value>
+			<value>S15 secretfactory</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{947a12b2-8369-4d99-982b-d6cd25056793}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{19d85b57-91cf-4886-b17a-79874dfb5cfc}</destination>
+			<destination>{53e5ecc1-c164-42b0-8f38-bfbeef796829}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +77,22 @@
 		<relationship name="markers">
 			<destination>{5914b853-5e3b-4a41-b124-5ed6ac6d38ce}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{19d85b57-91cf-4886-b17a-79874dfb5cfc}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>An Industry Secret</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{53e5ecc1-c164-42b0-8f38-bfbeef796829}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>ClascyJitto</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{63fcc92a-504b-499a-87ba-4e82409b064a}">
 		<relationship name="effectChain">

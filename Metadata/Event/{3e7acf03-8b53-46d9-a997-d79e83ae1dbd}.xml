@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{3e7acf03-8b53-46d9-a997-d79e83ae1dbd}">
 		<property name="name">
-			<value>lap2</value>
+			<value>05 lap2</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{5a8257cb-8d34-4a02-a328-be2829a8cd3a}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{09aa7d29-ab9e-4b61-aacb-6bdc8b4b070d}</destination>
+			<destination>{a76a47f7-297c-4104-ac6c-b997dd6f6204}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +77,22 @@
 		<relationship name="markers">
 			<destination>{209f8f03-1692-4b1b-9914-a93f1951020f}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{09aa7d29-ab9e-4b61-aacb-6bdc8b4b070d}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Sweet Release of Death</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{a76a47f7-297c-4104-ac6c-b997dd6f6204}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>RodMod</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{c58e8974-4bc0-4636-9c70-f458a9c63b9f}">
 		<relationship name="effectChain">

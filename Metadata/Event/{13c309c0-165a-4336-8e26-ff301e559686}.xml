@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{13c309c0-165a-4336-8e26-ff301e559686}">
 		<property name="name">
-			<value>hip</value>
+			<value>47 hip</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,12 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{2b1e605e-aa20-4c94-8843-0b0e684da36d}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{367a4677-d898-4960-a1d9-6f2ec8f3df33}</destination>
+			<destination>{6a114b79-1c83-4396-b4b3-e325e71ee2e3}</destination>
+			<destination>{1a3c9074-931a-46ae-a60b-a313e8cbe9f1}</destination>
+			<destination>{e2cfb3d1-bf79-49f5-b8b1-8c2df6a27019}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +79,38 @@
 		<relationship name="markers">
 			<destination>{0ff65e79-8150-4850-8ee9-270956366c7b}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{367a4677-d898-4960-a1d9-6f2ec8f3df33}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Hip To Be Italian</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{6a114b79-1c83-4396-b4b3-e325e71ee2e3}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>MrSauceman</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{1a3c9074-931a-46ae-a60b-a313e8cbe9f1}">
+		<property name="key">
+			<value>game</value>
+		</property>
+		<property name="value">
+			<value>Pizza Tower</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{e2cfb3d1-bf79-49f5-b8b1-8c2df6a27019}">
+		<property name="key">
+			<value>order</value>
+		</property>
+		<property name="value">
+			<value>47</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{79b7e6d1-6064-4725-a63b-5cd32bdf63fd}">
 		<relationship name="effectChain">

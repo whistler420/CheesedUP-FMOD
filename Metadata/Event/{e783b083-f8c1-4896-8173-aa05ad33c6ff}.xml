@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{e783b083-f8c1-4896-8173-aa05ad33c6ff}">
 		<property name="name">
-			<value>quintessence</value>
+			<value>02 quintessence</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{6cf08f59-8f8d-4252-8bef-2a99a9b2c902}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{c439f2e3-9414-42ba-a224-9c269e5b3d25}</destination>
+			<destination>{eadbed13-f240-4993-896c-425e35eb6f46}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +77,22 @@
 		<relationship name="markers">
 			<destination>{a5f93d39-4931-4993-b57f-56d8460d04e9}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{c439f2e3-9414-42ba-a224-9c269e5b3d25}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Quintessence</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{eadbed13-f240-4993-896c-425e35eb6f46}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>ClascyJitto</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{4f666730-ce80-4bfb-bf13-cc2d4a9616f1}">
 		<relationship name="effectChain">

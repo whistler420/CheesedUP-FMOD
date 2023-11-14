@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{73431144-03dd-4786-9120-c12e81039c73}">
 		<property name="name">
-			<value>secretnoise</value>
+			<value>S08 secretnoise</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{40ce33d4-4c77-4477-923c-9697bf04957c}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{cad3a7b0-b145-4cf8-b87d-c937318dd01b}</destination>
+			<destination>{85b2e215-9125-4034-a73a-f6305111e76e}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +77,22 @@
 		<relationship name="markers">
 			<destination>{57e44873-fe09-4a10-853f-2a5a6f3cae7f}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{cad3a7b0-b145-4cf8-b87d-c937318dd01b}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>A Jam-Packed Secret</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{85b2e215-9125-4034-a73a-f6305111e76e}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>loypoll</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{f40905c3-72bd-41d4-8f41-30070adb17ca}">
 		<relationship name="effectChain">

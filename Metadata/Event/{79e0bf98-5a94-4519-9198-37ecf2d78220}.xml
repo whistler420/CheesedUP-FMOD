@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{79e0bf98-5a94-4519-9198-37ecf2d78220}">
 		<property name="name">
-			<value>secretruin</value>
+			<value>S03 secretruin</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,11 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{276342bf-9752-429b-bdb5-2cf96f2d0907}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{2c9991e1-e049-4e8e-8bee-fd3fdfabd7af}</destination>
+			<destination>{6d95e8f0-9361-4ecc-995e-765424901fff}</destination>
+			<destination>{e4731d4f-921b-4ef3-8d95-abea0266304b}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +78,30 @@
 		<relationship name="markers">
 			<destination>{4ca6be43-ebc0-4167-b894-916899b19354}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{2c9991e1-e049-4e8e-8bee-fd3fdfabd7af}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>A Secret Under The Debris</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{6d95e8f0-9361-4ecc-995e-765424901fff}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>ClascyJitto</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{e4731d4f-921b-4ef3-8d95-abea0266304b}">
+		<property name="key">
+			<value>game</value>
+		</property>
+		<property name="value">
+			<value>Pizza Tower</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{95f072f8-a613-4404-b660-e5c350906dec}">
 		<relationship name="effectChain">

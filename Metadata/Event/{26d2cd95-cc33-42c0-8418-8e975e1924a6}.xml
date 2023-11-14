@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{26d2cd95-cc33-42c0-8418-8e975e1924a6}">
 		<property name="name">
-			<value>secretbeach</value>
+			<value>S09 secretbeach</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,11 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{216893f1-766f-4dd3-b2ae-199bd0d714cd}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{a41166ac-9963-41fa-a65e-e84df64521fd}</destination>
+			<destination>{268bd6e9-9d0b-457f-b85b-b0f76f490249}</destination>
+			<destination>{a66a4e85-e862-438e-b5b2-307f5bf9fbfc}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +78,30 @@
 		<relationship name="markers">
 			<destination>{28b3fc30-dbcb-400c-9ddf-e8f1cf9f8d8e}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{a41166ac-9963-41fa-a65e-e84df64521fd}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>A Secret In The Sands</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{268bd6e9-9d0b-457f-b85b-b0f76f490249}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>ClascyJitto</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{a66a4e85-e862-438e-b5b2-307f5bf9fbfc}">
+		<property name="key">
+			<value>game</value>
+		</property>
+		<property name="value">
+			<value>Pizza Tower</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{6db1cd58-81a4-4ca8-95c0-13853dbb3a0f}">
 		<relationship name="effectChain">

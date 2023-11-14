@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{efdc9cab-8a55-435a-98a4-52bf5866aeaf}">
 		<property name="name">
-			<value>secretsaloon</value>
+			<value>S08 secretsaloon</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,11 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{542b86dc-5ba4-4083-a0fb-0b9a39a5057c}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{23e3b0e9-c93b-45f1-8156-ca75f6c2a033}</destination>
+			<destination>{69e0708c-290d-48fe-9a81-0ee85950d62a}</destination>
+			<destination>{5a3ca582-6db3-4a0b-8131-ec1d7f4f5971}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +78,30 @@
 		<relationship name="markers">
 			<destination>{5a7928bb-3c31-45d0-b723-6073017854a4}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{23e3b0e9-c93b-45f1-8156-ca75f6c2a033}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>A Secret in My Boot</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{69e0708c-290d-48fe-9a81-0ee85950d62a}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>ClascyJitto</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{5a3ca582-6db3-4a0b-8131-ec1d7f4f5971}">
+		<property name="key">
+			<value>game</value>
+		</property>
+		<property name="value">
+			<value>Pizza Tower</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{78d946fb-d10c-41d9-b4ee-431aa2f1fac8}">
 		<relationship name="effectChain">

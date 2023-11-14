@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{699752c1-2e55-4b1e-8ff4-09040cb8d822}">
 		<property name="name">
-			<value>secretstrongcold</value>
+			<value>S07 secretstrongcold</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{4862ce17-8fc1-4a38-9b29-b58c8647bdda}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{bbe0a16e-fe61-4e4f-b3e8-d4b03b80dff8}</destination>
+			<destination>{ed2c511a-061a-46b6-88ba-2829d7a1c1ae}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +77,22 @@
 		<relationship name="markers">
 			<destination>{90a73eaf-bbc4-426d-bc6a-4e0d8a270cb8}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{bbe0a16e-fe61-4e4f-b3e8-d4b03b80dff8}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Secrets of The Saintes</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{ed2c511a-061a-46b6-88ba-2829d7a1c1ae}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>[c]ness</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{51c2737f-8cc8-4905-b623-41a4454ecde7}">
 		<relationship name="effectChain">

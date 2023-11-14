@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{cae736dc-4677-4404-9fbf-a35de288adc3}">
 		<property name="name">
-			<value>secretforest</value>
+			<value>S02 secretforest</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{0b68fa90-9247-474b-94ca-f2dbf32a8813}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{f8c5e4d8-a14a-41c6-97ae-134983d3c441}</destination>
+			<destination>{0d815518-991f-45c2-8528-705320eb8f95}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +77,22 @@
 		<relationship name="markers">
 			<destination>{4ddfdf76-4803-4e5d-b4b5-7022ab28040e}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{f8c5e4d8-a14a-41c6-97ae-134983d3c441}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Everybody Wanna Be A Secret</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{0d815518-991f-45c2-8528-705320eb8f95}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>loypoll</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{e10565dd-20de-421d-9e54-8c373718d71b}">
 		<relationship name="effectChain">

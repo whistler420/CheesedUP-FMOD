@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{2ec7de60-9fee-4ca6-aa99-8c6c5ce097b2}">
 		<property name="name">
-			<value>secretentrance</value>
+			<value>S01 secretentrance</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,12 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{a722db4a-91c1-4707-9ec0-619cd5b6d663}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{5114bc24-e635-4ad7-854e-e20f7ec522ce}</destination>
+			<destination>{2f43dd67-bac3-4487-b357-721316f43adc}</destination>
+			<destination>{161002b9-69e9-46f0-8b7f-c5619e8a9c9b}</destination>
+			<destination>{1953d4ea-07fb-4c75-ae24-880b782919b9}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +79,38 @@
 		<relationship name="markers">
 			<destination>{3bf41dfb-f8c4-496e-bb63-8b1e44e1d71d}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{5114bc24-e635-4ad7-854e-e20f7ec522ce}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>An Entrance Secret</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{2f43dd67-bac3-4487-b357-721316f43adc}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>ClascyJitto</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{161002b9-69e9-46f0-8b7f-c5619e8a9c9b}">
+		<property name="key">
+			<value>game</value>
+		</property>
+		<property name="value">
+			<value>Pizza Tower</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{1953d4ea-07fb-4c75-ae24-880b782919b9}">
+		<property name="key">
+			<value>order</value>
+		</property>
+		<property name="value">
+			<value>58</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{f484a243-b243-4507-90c0-0cdef40ab9b6}">
 		<relationship name="effectChain">

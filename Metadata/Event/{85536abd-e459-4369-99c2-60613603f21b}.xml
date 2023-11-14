@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{85536abd-e459-4369-99c2-60613603f21b}">
 		<property name="name">
-			<value>grinch</value>
+			<value>09 grinch</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{6a71cf7b-b8f1-43cf-97c7-6f26c6b12bb8}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{e39156ff-cb65-494f-820c-273504dc18fd}</destination>
+			<destination>{357a9a63-7843-480c-827a-0b23487fd9b5}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +77,22 @@
 		<relationship name="markers">
 			<destination>{cdef8ba7-0f63-4084-af8a-c9ab1e502f0e}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{e39156ff-cb65-494f-820c-273504dc18fd}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Grinch's Ultimatum</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{357a9a63-7843-480c-827a-0b23487fd9b5}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>PilotRedSun</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{87889889-0a15-4d74-80e7-d3f0667abc9c}">
 		<relationship name="effectChain">

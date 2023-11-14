@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{dba98ff2-50b1-4d21-932c-c19a6c668a20}">
 		<property name="name">
-			<value>thursdays</value>
+			<value>29 thursdays</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,12 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{c3388773-8ec6-445c-913a-9f7875a41fc2}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{73e6b42f-2fca-4d78-ae94-1d732725bae0}</destination>
+			<destination>{3be4172d-9675-4576-b45b-12646dcf3e29}</destination>
+			<destination>{63947d14-d649-4a5a-b3f7-0174484e27cc}</destination>
+			<destination>{290651b0-b754-4b12-9ae1-d59d68e9ebd4}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +79,38 @@
 		<relationship name="markers">
 			<destination>{b7f21207-e6ad-4c7a-a8c0-7a529ef17f0b}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{73e6b42f-2fca-4d78-ae94-1d732725bae0}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Thursdays</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{3be4172d-9675-4576-b45b-12646dcf3e29}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>ClascyJitto</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{63947d14-d649-4a5a-b3f7-0174484e27cc}">
+		<property name="key">
+			<value>game</value>
+		</property>
+		<property name="value">
+			<value>Pizza Tower</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{290651b0-b754-4b12-9ae1-d59d68e9ebd4}">
+		<property name="key">
+			<value>order</value>
+		</property>
+		<property name="value">
+			<value>29</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{45da8c07-ab06-4f10-a02e-ce52f35194e2}">
 		<relationship name="effectChain">

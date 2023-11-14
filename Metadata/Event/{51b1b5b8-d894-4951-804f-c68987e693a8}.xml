@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{51b1b5b8-d894-4951-804f-c68987e693a8}">
 		<property name="name">
-			<value>secretsucrose</value>
+			<value>S03 secretsucrose</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{62da0c76-b8a2-4e71-b26a-7aedfc2e9a4f}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{834b9ddc-30bf-4518-9a56-6e46cb34a08c}</destination>
+			<destination>{03d2de09-3e43-4adc-b99f-861332f0fa45}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +77,22 @@
 		<relationship name="markers">
 			<destination>{0d5df080-2471-494c-bd68-0ac4df855786}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{834b9ddc-30bf-4518-9a56-6e46cb34a08c}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Sucrose Secret</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{03d2de09-3e43-4adc-b99f-861332f0fa45}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>loypoll</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{7f50c9e6-1189-4c29-8063-94829ad29cec}">
 		<relationship name="effectChain">

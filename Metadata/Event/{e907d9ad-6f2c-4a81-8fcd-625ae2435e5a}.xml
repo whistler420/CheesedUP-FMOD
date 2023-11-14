@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{e907d9ad-6f2c-4a81-8fcd-625ae2435e5a}">
 		<property name="name">
-			<value>secretchateau</value>
+			<value>S01 secretchateau</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,11 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{ecab162e-66f4-496f-9637-32dd95bb93a4}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{2c84f65c-3cc0-4f52-b5fa-470200e16601}</destination>
+			<destination>{5c9b33e3-8165-4f8f-b4e2-d8ed72910449}</destination>
+			<destination>{91585ec9-9ecb-40e5-982b-510f04955c86}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +78,30 @@
 		<relationship name="markers">
 			<destination>{96901929-2844-4d9c-8a38-fc81d6d4ecd8}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{2c84f65c-3cc0-4f52-b5fa-470200e16601}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>A Secret In My Spaghetti</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{5c9b33e3-8165-4f8f-b4e2-d8ed72910449}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>loypoll</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{91585ec9-9ecb-40e5-982b-510f04955c86}">
+		<property name="key">
+			<value>order</value>
+		</property>
+		<property name="value">
+			<value>22</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{911cb3ae-9cab-42e1-8966-590fcbfa8667}">
 		<relationship name="effectChain">

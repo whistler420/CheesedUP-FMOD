@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{94a0a503-8a46-4c7c-b753-f282a7fc1ed1}">
 		<property name="name">
-			<value>leaningnightmare</value>
+			<value>15 leaningnightmare</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{870ae57f-589b-41b3-ba85-7f45ac027944}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{c1e5f38e-5a69-46fe-a004-074e7944a941}</destination>
+			<destination>{cacdc84e-3876-4b01-8173-9ca2d46095f5}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +77,22 @@
 		<relationship name="markers">
 			<destination>{fb604641-577a-4e50-ac01-c076200fae68}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{c1e5f38e-5a69-46fe-a004-074e7944a941}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Leaning Nightmare</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{cacdc84e-3876-4b01-8173-9ca2d46095f5}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>ClascyJitto</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{7379e61e-d0cf-4caf-806d-f4dcb4efdf3b}">
 		<relationship name="effectChain">

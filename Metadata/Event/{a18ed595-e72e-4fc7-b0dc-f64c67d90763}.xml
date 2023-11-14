@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{a18ed595-e72e-4fc7-b0dc-f64c67d90763}">
 		<property name="name">
-			<value>pause</value>
+			<value>50 pause</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,12 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{0aa029e9-3f7a-4fd6-a589-71994b38e897}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{b174a4e2-c1db-4d7a-b8cd-7d5d2c23fe9f}</destination>
+			<destination>{7c590f60-b5c0-4314-ab56-ce85a31fbb56}</destination>
+			<destination>{67a839ac-f9f7-45c0-ab6f-4e0b2a58cf78}</destination>
+			<destination>{7b75da5b-bea3-42f4-a1a7-e18b7a6d55ae}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -79,6 +85,38 @@
 		<relationship name="markers">
 			<destination>{08cccb3d-d2cb-4c16-85a2-a0a08a03c68a}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{b174a4e2-c1db-4d7a-b8cd-7d5d2c23fe9f}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>space</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{7c590f60-b5c0-4314-ab56-ce85a31fbb56}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>ClascyJitto</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{67a839ac-f9f7-45c0-ab6f-4e0b2a58cf78}">
+		<property name="key">
+			<value>game</value>
+		</property>
+		<property name="value">
+			<value>Pizza Tower</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{7b75da5b-bea3-42f4-a1a7-e18b7a6d55ae}">
+		<property name="key">
+			<value>order</value>
+		</property>
+		<property name="value">
+			<value>50</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{1b89169f-c24f-43e1-af5e-a71f1138cfd7}">
 		<relationship name="effectChain">

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{ae869466-68d1-4a2a-bc3d-6d270d83e860}">
 		<property name="name">
-			<value>pause</value>
+			<value>11 pause</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{4f71de6a-46a1-4f7b-b007-e9abb543ba53}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{14877f9f-ddfa-4c3f-b05c-145a8aeb74b3}</destination>
+			<destination>{3dd77bba-3160-4102-8bac-e7ef7aac4323}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +77,22 @@
 		<relationship name="markers">
 			<destination>{ae635513-7bae-459b-8dad-fadda05141b2}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{14877f9f-ddfa-4c3f-b05c-145a8aeb74b3}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Paused</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{3dd77bba-3160-4102-8bac-e7ef7aac4323}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>Unknown</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{15677d55-6889-4432-bc02-2298bf205da6}">
 		<relationship name="effectChain">

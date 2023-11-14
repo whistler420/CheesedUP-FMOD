@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{1d48460b-fb4a-44d7-97af-0c92f4104db2}">
 		<property name="name">
-			<value>hub</value>
+			<value>00 hub</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{29b1cf7e-7c03-414e-bc21-b4b7a1c5d8d1}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{8b0e1a3c-f870-4fce-83c0-0b265a370d9d}</destination>
+			<destination>{076eacdc-9d31-443d-8ebd-19baa023c1ab}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +77,22 @@
 		<relationship name="markers">
 			<destination>{ef7e3399-80a3-4308-a022-14018b30cfc2}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{8b0e1a3c-f870-4fce-83c0-0b265a370d9d}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Welcome Back!</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{076eacdc-9d31-443d-8ebd-19baa023c1ab}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>101Undertale</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{f24f0b63-6211-4fe8-90a4-3cf61498774f}">
 		<relationship name="effectChain">

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{cf88a17b-5165-481f-af37-9cae73903f25}">
 		<property name="name">
-			<value>secretdesert</value>
+			<value>S05 secretdesert</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,11 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{9fca7a04-7fcd-457e-a382-1d8d237bd900}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{e727f54b-8a02-4031-9b95-761c44b7fa57}</destination>
+			<destination>{258abc17-ae4a-46f5-85cc-782ab95f0398}</destination>
+			<destination>{4f3cfbcf-0365-4a74-a4d1-0624780e25c8}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +78,30 @@
 		<relationship name="markers">
 			<destination>{c52a3827-4dc5-4b0d-8ba8-ca9141cc35c9}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{e727f54b-8a02-4031-9b95-761c44b7fa57}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>A Grain of Bread in a Grain of Sand</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{258abc17-ae4a-46f5-85cc-782ab95f0398}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>ClascyJitto</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{4f3cfbcf-0365-4a74-a4d1-0624780e25c8}">
+		<property name="key">
+			<value>game</value>
+		</property>
+		<property name="value">
+			<value>Pizza Tower</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{6cf48ec9-98fd-4367-ab73-5033a410a87a}">
 		<relationship name="effectChain">

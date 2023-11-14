@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{5e8fc98d-7fe0-484c-a589-f5cefaa46cc9}">
 		<property name="name">
-			<value>plains</value>
+			<value>34 plains</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,12 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{f0015b77-7997-4148-81ce-b5dd33812831}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{f52736e4-db8a-4871-8d58-c6965c1a0673}</destination>
+			<destination>{758f3e0f-4f1f-4428-8cb0-d43b04446935}</destination>
+			<destination>{f7cb9313-6c35-4403-a67a-815898b5aa6e}</destination>
+			<destination>{d7df274c-f405-4edc-a864-a9dd70655912}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +79,38 @@
 		<relationship name="markers">
 			<destination>{3e957fa0-4fb1-46fe-a0f9-bd285495bf09}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{f52736e4-db8a-4871-8d58-c6965c1a0673}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>On The Rocks</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{758f3e0f-4f1f-4428-8cb0-d43b04446935}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>MrSauceman</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{f7cb9313-6c35-4403-a67a-815898b5aa6e}">
+		<property name="key">
+			<value>game</value>
+		</property>
+		<property name="value">
+			<value>Pizza Tower</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{d7df274c-f405-4edc-a864-a9dd70655912}">
+		<property name="key">
+			<value>order</value>
+		</property>
+		<property name="value">
+			<value>34</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{0978b61a-25d0-4b71-aafd-4831c3d54217}">
 		<relationship name="effectChain">

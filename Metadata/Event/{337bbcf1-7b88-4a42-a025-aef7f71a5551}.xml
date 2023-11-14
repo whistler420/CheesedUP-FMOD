@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{337bbcf1-7b88-4a42-a025-aef7f71a5551}">
 		<property name="name">
-			<value>secretdungeon</value>
+			<value>S04 secretdungeon</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,11 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{a2d6f17d-9f46-4c52-9214-e5a4ce77fda2}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{959baa39-7461-4986-87ef-b26061397a31}</destination>
+			<destination>{1047035b-c433-44c0-8c58-f918451da11a}</destination>
+			<destination>{04263145-a8cf-4509-955b-5f2b73d26f19}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +78,30 @@
 		<relationship name="markers">
 			<destination>{bd6f6a85-f60e-4bbd-b21d-9342eaa13143}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{959baa39-7461-4986-87ef-b26061397a31}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>A Hidden Pepperoni In The Cage</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{1047035b-c433-44c0-8c58-f918451da11a}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>ClascyJitto</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{04263145-a8cf-4509-955b-5f2b73d26f19}">
+		<property name="key">
+			<value>game</value>
+		</property>
+		<property name="value">
+			<value>Pizza Tower</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{c8fb880d-9594-455b-9a89-0d4d21d50bdc}">
 		<relationship name="effectChain">

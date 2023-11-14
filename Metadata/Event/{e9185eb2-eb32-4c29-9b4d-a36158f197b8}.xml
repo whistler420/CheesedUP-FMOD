@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{e9185eb2-eb32-4c29-9b4d-a36158f197b8}">
 		<property name="name">
-			<value>tubular</value>
+			<value>37 tubular</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,12 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{2b575247-e685-4072-88d0-a85e911244f2}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{afaf0f12-429c-43e1-a113-0ba6542cb998}</destination>
+			<destination>{05cfbbf6-9144-4125-bdfb-cd5cca57a98f}</destination>
+			<destination>{903b55b0-6c6b-4639-9f62-6991b9ddbba7}</destination>
+			<destination>{bf33188f-725a-4469-a528-6d4a8dfbc620}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +79,38 @@
 		<relationship name="markers">
 			<destination>{da160bed-5b86-41d3-985c-2c49ddd24086}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{afaf0f12-429c-43e1-a113-0ba6542cb998}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Tubular Trash Zone</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{05cfbbf6-9144-4125-bdfb-cd5cca57a98f}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>MrSauceman</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{903b55b0-6c6b-4639-9f62-6991b9ddbba7}">
+		<property name="key">
+			<value>game</value>
+		</property>
+		<property name="value">
+			<value>Pizza Tower</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{bf33188f-725a-4469-a528-6d4a8dfbc620}">
+		<property name="key">
+			<value>order</value>
+		</property>
+		<property name="value">
+			<value>37</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{bf178ce2-8af5-4c3d-a01f-71c852d6efae}">
 		<relationship name="effectChain">

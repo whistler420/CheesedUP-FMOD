@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{2832d782-7d10-42c7-a56c-d3c837b0678f}">
 		<property name="name">
-			<value>sucrose</value>
+			<value>10 sucrose</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{e51e7537-1806-48a7-ad00-3e21de48e522}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{4c4912df-20c4-4c9b-8167-d653e6020d69}</destination>
+			<destination>{d46b4113-3297-474e-8628-9357d210873f}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +77,22 @@
 		<relationship name="markers">
 			<destination>{2de91780-d7fa-4065-b8f9-049e60f4199c}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{4c4912df-20c4-4c9b-8167-d653e6020d69}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Sugarcube Hailstorm</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{d46b4113-3297-474e-8628-9357d210873f}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>PaperKitty</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{77998905-b345-4985-8f58-d06b3cb70c29}">
 		<relationship name="effectChain">

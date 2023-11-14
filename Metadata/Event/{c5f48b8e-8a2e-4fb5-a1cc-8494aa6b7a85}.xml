@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{c5f48b8e-8a2e-4fb5-a1cc-8494aa6b7a85}">
 		<property name="name">
-			<value>secretsewer</value>
+			<value>S04 secretsewer</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{98aeb496-0375-43b6-908d-695d207156d9}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{7372f1c0-f6ab-4f2b-9bda-00d66d8c8001}</destination>
+			<destination>{1df85243-aae5-4ec3-a35a-4eb4f84df7de}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +77,22 @@
 		<relationship name="markers">
 			<destination>{b9cac87e-2e89-49f6-ba09-0e107ef9c1fc}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{7372f1c0-f6ab-4f2b-9bda-00d66d8c8001}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>A Fecal Secret</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{1df85243-aae5-4ec3-a35a-4eb4f84df7de}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>loypoll</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{1d395220-204f-4b28-bc12-377049277537}">
 		<relationship name="effectChain">

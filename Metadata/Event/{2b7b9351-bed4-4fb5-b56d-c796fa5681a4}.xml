@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{2b7b9351-bed4-4fb5-b56d-c796fa5681a4}">
 		<property name="name">
-			<value>cottontown</value>
+			<value>06 cottontown</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{205c1f15-3267-4ed5-9689-50280ca34980}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{bae9dae8-4ada-4a91-9ebb-b072fdea5dd0}</destination>
+			<destination>{639bb49c-a37a-4a7b-b510-96041620f940}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +77,22 @@
 		<relationship name="markers">
 			<destination>{8a6064f9-4c9f-4049-b02a-9c6348695c4a}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{bae9dae8-4ada-4a91-9ebb-b072fdea5dd0}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Steamy Cotton Candy</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{639bb49c-a37a-4a7b-b510-96041620f940}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>RodMod</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{2a42822f-6147-4b6c-b74b-5998e21483b7}">
 		<relationship name="effectChain">

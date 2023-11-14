@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{c14aa7ab-01b6-4410-89ac-fa6695f7ca20}">
 		<property name="name">
-			<value>moveitboy</value>
+			<value>00 moveitboy</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{bd93f28a-3aa9-498e-ba1e-f553b0147250}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{989c1bd3-7eb5-4224-a07e-98eaf4e1ed4a}</destination>
+			<destination>{190b39f7-05c6-4da1-8e4d-2159ba805747}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +77,22 @@
 		<relationship name="markers">
 			<destination>{81c278fa-8fd3-488b-bb92-6b6c49456332}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{989c1bd3-7eb5-4224-a07e-98eaf4e1ed4a}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Move It, Boy</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{190b39f7-05c6-4da1-8e4d-2159ba805747}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>MrSauceman</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{8910235c-9259-46a8-a85d-c3e7a6a9b526}">
 		<relationship name="effectChain">

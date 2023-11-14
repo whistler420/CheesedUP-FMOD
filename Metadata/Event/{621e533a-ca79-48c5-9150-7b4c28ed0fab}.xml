@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{621e533a-ca79-48c5-9150-7b4c28ed0fab}">
 		<property name="name">
-			<value>midway</value>
+			<value>16 midway</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{1732fdb7-d253-42ab-bca4-5cc42d243647}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{9d43645b-ce3d-4fdc-a385-10b26e1c14f2}</destination>
+			<destination>{6724f689-b87c-44c0-831a-87a53f26118b}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +77,22 @@
 		<relationship name="markers">
 			<destination>{0ba2d2c0-2468-4555-925b-7e621fd6e1dd}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{9d43645b-ce3d-4fdc-a385-10b26e1c14f2}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>bad to the bo</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{6724f689-b87c-44c0-831a-87a53f26118b}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>Jessie Productions</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{406a8d1f-77d3-4085-a383-4d810a04a0cc}">
 		<relationship name="effectChain">

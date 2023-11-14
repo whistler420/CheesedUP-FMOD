@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{639156f9-146d-48e3-836c-5586a1b44508}">
 		<property name="name">
-			<value>clock</value>
+			<value>07 clock</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{24ddf429-884b-4a95-b4ba-9af31efc22c1}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{1b8fda2b-fee5-473f-bc04-d220e9da6534}</destination>
+			<destination>{5143b2ca-b0db-4fc4-8a7e-aa8b29a0c6a3}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +77,22 @@
 		<relationship name="markers">
 			<destination>{0b0344f9-8565-4d49-b9a5-79dc54d47156}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{1b8fda2b-fee5-473f-bc04-d220e9da6534}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Around The Gateau's Gears</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{5143b2ca-b0db-4fc4-8a7e-aa8b29a0c6a3}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>RodMod</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{4f3ea700-b3d0-4faf-a8ab-c4ae4fa7d1d2}">
 		<relationship name="effectChain">

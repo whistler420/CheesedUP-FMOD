@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{781b054a-f3e2-46f1-a7e1-8188047619c1}">
 		<property name="name">
-			<value>strongcold</value>
+			<value>03 strongcold</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{e811978c-1942-42ad-9cb5-90bccf6559b0}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{1ad575cf-6966-4320-8d30-1f3935715728}</destination>
+			<destination>{880c9ddc-6341-43f6-8c74-be6a913808d3}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -79,6 +83,22 @@
 		<relationship name="markers">
 			<destination>{f97e2a51-f2b2-4d8d-856f-4c712fae7ebe}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{1ad575cf-6966-4320-8d30-1f3935715728}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Teeth Dust In The Strongcold</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{880c9ddc-6341-43f6-8c74-be6a913808d3}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>ClascyJitto</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{b573cf0b-0b64-48b1-96a8-b858855465f1}">
 		<relationship name="effectChain">

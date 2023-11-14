@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{fba3f425-fb68-4cc5-b6e1-68240cab9c29}">
 		<property name="name">
-			<value>notime</value>
+			<value>48 notime</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,12 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{0e66cf10-9f83-4594-9187-2935a1c61fd6}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{75ba48f2-16ce-4582-8bb3-04370a450996}</destination>
+			<destination>{f7721416-2182-4738-9b3a-6c291e7e07a3}</destination>
+			<destination>{8bac59a0-0f1b-431f-9d75-b4a2fb887460}</destination>
+			<destination>{10394a4c-98f0-4ffc-aef4-a7627fba9495}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +79,38 @@
 		<relationship name="markers">
 			<destination>{1fc32eb7-80e1-4909-8176-a1cb7f9a0b3b}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{75ba48f2-16ce-4582-8bb3-04370a450996}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Receding Hairline Celebration Party</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{f7721416-2182-4738-9b3a-6c291e7e07a3}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>MrSauceman</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{8bac59a0-0f1b-431f-9d75-b4a2fb887460}">
+		<property name="key">
+			<value>game</value>
+		</property>
+		<property name="value">
+			<value>Pizza Tower</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{10394a4c-98f0-4ffc-aef4-a7627fba9495}">
+		<property name="key">
+			<value>order</value>
+		</property>
+		<property name="value">
+			<value>48</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{1589d39a-30fc-4f73-9a7a-fb71bfb23be0}">
 		<relationship name="effectChain">

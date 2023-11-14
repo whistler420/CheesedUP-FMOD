@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{583fd3bf-9284-4b70-8d7c-0ecc3090505b}">
 		<property name="name">
-			<value>secretkidsparty</value>
+			<value>S17 secretkidsparty</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{483ec18f-95d6-4e54-b582-b5573d2661b7}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{b0ec733f-0f0d-4306-87f0-a3c90af14910}</destination>
+			<destination>{85bf3cf1-f7de-420d-bf77-07574ce5fe4e}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +77,22 @@
 		<relationship name="markers">
 			<destination>{301bda01-0145-4bfb-b187-54cee2f32f9e}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{b0ec733f-0f0d-4306-87f0-a3c90af14910}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>A Secret You Don't Want To Find</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{85bf3cf1-f7de-420d-bf77-07574ce5fe4e}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>ClascyJitto</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{e50dda4f-c0bc-46df-959d-c6549b9cc377}">
 		<relationship name="effectChain">

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{0834fee7-3eeb-432d-b719-ccd838e2aafa}">
 		<property name="name">
-			<value>deathmode</value>
+			<value>20 deathmode</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{8d0f6d82-4d37-475d-9abb-212052388c4f}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{81740cac-1244-4bb2-a238-6a30d71011cf}</destination>
+			<destination>{2dd11035-33ca-4da3-92e9-5e630976c683}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +77,22 @@
 		<relationship name="markers">
 			<destination>{88b1ad51-412d-4ea2-9ece-889b6e4017aa}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{81740cac-1244-4bb2-a238-6a30d71011cf}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Revenge Of The Killer Pizza</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{2dd11035-33ca-4da3-92e9-5e630976c683}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>The Consul</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{0a001bb2-bc3f-4ab6-b58f-80e25c995f64}">
 		<relationship name="effectChain">

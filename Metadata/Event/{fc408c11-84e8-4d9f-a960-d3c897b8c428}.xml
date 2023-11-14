@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{fc408c11-84e8-4d9f-a960-d3c897b8c428}">
 		<property name="name">
-			<value>secretswamp</value>
+			<value>S02 secretswamp</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{6c90c8bb-6771-4506-b281-6f1b739ee77c}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{76d4e03c-9087-456e-8ab8-4139ea27419a}</destination>
+			<destination>{579b9357-c982-4c55-89a2-ff4289869425}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +77,22 @@
 		<relationship name="markers">
 			<destination>{92a1454e-3772-4d3c-a87d-4249b9fdfdae}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{76d4e03c-9087-456e-8ab8-4139ea27419a}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>man's lost secret.</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{579b9357-c982-4c55-89a2-ff4289869425}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>loypoll</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{ddd5cf88-ce8f-4045-a2d5-13115b4ee349}">
 		<relationship name="effectChain">

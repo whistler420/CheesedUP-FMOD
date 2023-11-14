@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{935d991b-3837-4ba3-912f-8304ff44880a}">
 		<property name="name">
-			<value>extraterrestial</value>
+			<value>27 extraterrestial</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,12 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{04ee746a-7689-44dd-aecd-225ea39acc03}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{bc288c25-531e-4416-9a84-e936a8bbdaa3}</destination>
+			<destination>{aa6d6672-c356-48db-ba1c-9275f43de563}</destination>
+			<destination>{4e4c1265-ab50-451b-bd8c-e1a1e7bd826e}</destination>
+			<destination>{2aa6b6a7-2828-4c75-9618-a1b074599828}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +79,38 @@
 		<relationship name="markers">
 			<destination>{708d9969-fe75-4c70-9cff-386b2534c159}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{bc288c25-531e-4416-9a84-e936a8bbdaa3}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Extraterrestrial Wahwahs</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{aa6d6672-c356-48db-ba1c-9275f43de563}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>MrSauceman</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{4e4c1265-ab50-451b-bd8c-e1a1e7bd826e}">
+		<property name="key">
+			<value>game</value>
+		</property>
+		<property name="value">
+			<value>Pizza Tower</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{2aa6b6a7-2828-4c75-9618-a1b074599828}">
+		<property name="key">
+			<value>order</value>
+		</property>
+		<property name="value">
+			<value>27</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{82f32889-4ac0-4933-89af-42207caf3106}">
 		<relationship name="effectChain">

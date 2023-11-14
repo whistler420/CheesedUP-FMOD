@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{65726b0a-ea5f-4113-8a89-e588fbd8775e}">
 		<property name="name">
-			<value>pestoanchovi</value>
+			<value>12 pestoanchovi</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{2bba0cdd-8125-4dda-a662-b4d56868d3e2}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{02a74b5c-4a06-49f6-9b1f-28f2ad6df606}</destination>
+			<destination>{02d4edb1-84e8-41a7-a534-d1e1a0dde6fc}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +77,22 @@
 		<relationship name="markers">
 			<destination>{6b62aa30-23d0-4cd7-8fef-eaa8d53c7a18}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{02a74b5c-4a06-49f6-9b1f-28f2ad6df606}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Pesto Anchovi</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{02d4edb1-84e8-41a7-a534-d1e1a0dde6fc}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>ClascyJitto</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{8310a4d0-d202-40a1-8475-62fde0fdf41f}">
 		<relationship name="effectChain">

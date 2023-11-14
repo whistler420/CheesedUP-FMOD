@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{23b764a7-48a5-408a-a94e-2a74b6f4ddc1}">
 		<property name="name">
-			<value>saturdays</value>
+			<value>01 saturdays</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{1ecc9987-97c0-40d0-8ecb-6732a12d63d8}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{1b7f2c36-2495-40bf-ae36-05887f7b03ab}</destination>
+			<destination>{17eb8203-36c2-46ea-bdf9-0903b27a470f}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +77,22 @@
 		<relationship name="markers">
 			<destination>{e527f661-39ac-4fd2-a243-c81202444ed0}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{1b7f2c36-2495-40bf-ae36-05887f7b03ab}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Saturdays</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{17eb8203-36c2-46ea-bdf9-0903b27a470f}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>loypoll</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{06c501c7-b1e2-46cf-aa84-a6827456ab01}">
 		<relationship name="effectChain">

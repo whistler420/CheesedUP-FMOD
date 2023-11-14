@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{66e850ef-d79a-4140-bce9-3c9927aec233}">
 		<property name="name">
-			<value>noiseanthem</value>
+			<value>10 noiseanthem</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{6fac3f9f-3e44-41a9-943a-a22832b614c1}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{810b54d9-7507-456f-9acc-90ce1746b82c}</destination>
+			<destination>{4e5209bd-2a4e-400e-a488-3b81b019d79c}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +77,22 @@
 		<relationship name="markers">
 			<destination>{30d130e4-f666-43ef-bfea-33b91993b977}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{810b54d9-7507-456f-9acc-90ce1746b82c}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>The Noise's Jam-Packed Radical Anthem</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{4e5209bd-2a4e-400e-a488-3b81b019d79c}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>MrSauceman</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{2e7183a1-5349-40b6-9102-45fbd48c5383}">
 		<relationship name="effectChain">

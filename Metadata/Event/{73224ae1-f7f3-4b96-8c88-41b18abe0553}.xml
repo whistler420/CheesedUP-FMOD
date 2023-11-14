@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{73224ae1-f7f3-4b96-8c88-41b18abe0553}">
 		<property name="name">
-			<value>secretgraveyard</value>
+			<value>S06 secretgraveyard</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,11 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{2cb26f78-59f9-4e2a-8f8a-7706c6c9b923}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{f72624ee-d77c-459a-9142-358e24d5721a}</destination>
+			<destination>{b35bb145-79a6-406d-8546-c0211bcce724}</destination>
+			<destination>{58c14ad7-ba54-4740-bb74-72516a664c94}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +78,30 @@
 		<relationship name="markers">
 			<destination>{6f2932b8-a4d6-42b9-b894-ca59a2fa1cea}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{f72624ee-d77c-459a-9142-358e24d5721a}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>An Undead Secret</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{b35bb145-79a6-406d-8546-c0211bcce724}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>ClascyJitto</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{58c14ad7-ba54-4740-bb74-72516a664c94}">
+		<property name="key">
+			<value>game</value>
+		</property>
+		<property name="value">
+			<value>Pizza Tower</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{ae18cc5a-2831-4cfc-a521-2e6ce111a511}">
 		<relationship name="effectChain">

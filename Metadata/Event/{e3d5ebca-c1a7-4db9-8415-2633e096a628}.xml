@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{e3d5ebca-c1a7-4db9-8415-2633e096a628}">
 		<property name="name">
-			<value>lap</value>
+			<value>04 lap</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,12 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{bd936398-9642-42ed-9b2c-93d2c6853294}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{70765fe0-12f1-412f-b139-85e1d2107605}</destination>
+			<destination>{1dfe1be8-d594-49e6-9a0d-b2fece3fc125}</destination>
+			<destination>{e531cc52-61d3-4d55-a810-26fdd225eba4}</destination>
+			<destination>{8e08a8be-9f0a-420a-80c5-d408bbddb3e5}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +79,38 @@
 		<relationship name="markers">
 			<destination>{54ee1880-72d7-44d0-b344-bd23884c77d3}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{70765fe0-12f1-412f-b139-85e1d2107605}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>The Death That I Deservioli</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{1dfe1be8-d594-49e6-9a0d-b2fece3fc125}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>MrSauceman</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{e531cc52-61d3-4d55-a810-26fdd225eba4}">
+		<property name="key">
+			<value>game</value>
+		</property>
+		<property name="value">
+			<value>Pizza Tower</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{8e08a8be-9f0a-420a-80c5-d408bbddb3e5}">
+		<property name="key">
+			<value>order</value>
+		</property>
+		<property name="value">
+			<value>4</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{7ea8e8c9-b992-41b7-b901-997cb8f40c57}">
 		<relationship name="effectChain">

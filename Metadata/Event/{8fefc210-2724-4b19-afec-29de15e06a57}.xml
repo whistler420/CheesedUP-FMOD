@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{8fefc210-2724-4b19-afec-29de15e06a57}">
 		<property name="name">
-			<value>oldruin</value>
+			<value>08 oldruin</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{09729520-45fd-4263-94c1-dc44565aada4}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{072d16db-5343-466a-8460-61e0610a45da}</destination>
+			<destination>{852ee0b4-638a-405a-8c58-7abf3f17b62f}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -79,6 +83,22 @@
 		<relationship name="markers">
 			<destination>{27521cfb-dcbf-4dc1-a38f-98493c223570}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{072d16db-5343-466a-8460-61e0610a45da}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>One Pizza At A Time</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{852ee0b4-638a-405a-8c58-7abf3f17b62f}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>MrSauceman</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{7fd3c0ec-7e6b-4abe-8a59-013b476cdef8}">
 		<relationship name="effectChain">

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{f0cbab32-86e8-4751-a800-9c910155674d}">
 		<property name="name">
-			<value>yeehaw</value>
+			<value>19 yeehaw</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,12 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{0e56f255-1a8d-4b49-b223-ec94b43bbaa2}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{1b069bd2-4b66-4600-870f-75688cd6a45b}</destination>
+			<destination>{737f27db-d190-455c-b055-e7b2726e846b}</destination>
+			<destination>{d1589270-6f2d-4a18-9b4a-d6da964f7675}</destination>
+			<destination>{a188c10f-64a1-452e-85de-65bd65396aec}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +79,38 @@
 		<relationship name="markers">
 			<destination>{17f25d9a-2f5c-4bc7-b5d8-4ebdfa6985dd}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{1b069bd2-4b66-4600-870f-75688cd6a45b}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Yeehaw Deliveryboy</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{737f27db-d190-455c-b055-e7b2726e846b}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>ClascyJitto</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{d1589270-6f2d-4a18-9b4a-d6da964f7675}">
+		<property name="key">
+			<value>game</value>
+		</property>
+		<property name="value">
+			<value>Pizza Tower</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{a188c10f-64a1-452e-85de-65bd65396aec}">
+		<property name="key">
+			<value>order</value>
+		</property>
+		<property name="value">
+			<value>19</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{f02af392-af27-4d00-8bcb-d9264952b9e0}">
 		<relationship name="effectChain">

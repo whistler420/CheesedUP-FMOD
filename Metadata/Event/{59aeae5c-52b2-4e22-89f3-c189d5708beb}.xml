@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{59aeae5c-52b2-4e22-89f3-c189d5708beb}">
 		<property name="name">
-			<value>escapeBN</value>
+			<value>17 escapeBN</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{33a90fbf-617a-4632-94d3-2b03acbc3c64}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{75d5c16a-2162-475c-aabe-910102eee62f}</destination>
+			<destination>{e7aa0d67-b4df-4f8c-a985-e6489b331bf6}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +77,22 @@
 		<relationship name="markers">
 			<destination>{68470f71-741d-49c8-8e79-a00c41c52ac4}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{75d5c16a-2162-475c-aabe-910102eee62f}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>bo noise escape theme 1</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{e7aa0d67-b4df-4f8c-a985-e6489b331bf6}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>Jessie Productions</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{01cf072c-f028-407b-a2e3-b324d17b4634}">
 		<relationship name="effectChain">

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{18059a18-1976-4823-af94-3e874a893eef}">
 		<property name="name">
-			<value>secretfarm</value>
+			<value>S07 secretfarm</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,11 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{6398e2b3-b5b2-4a8e-ac32-668c5648f959}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{d6d70c02-9340-4299-b2e6-bc7fa7dd8be7}</destination>
+			<destination>{2936c3c0-16a7-4d77-872e-ac4d5b2f1942}</destination>
+			<destination>{ff0be749-9587-440e-9f34-b2d486fc84a3}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +78,30 @@
 		<relationship name="markers">
 			<destination>{ce8041e7-a220-4002-b88e-354198d023c7}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{d6d70c02-9340-4299-b2e6-bc7fa7dd8be7}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>A Secret in the Chicken</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{2936c3c0-16a7-4d77-872e-ac4d5b2f1942}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>ClascyJitto</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{ff0be749-9587-440e-9f34-b2d486fc84a3}">
+		<property name="key">
+			<value>game</value>
+		</property>
+		<property name="value">
+			<value>Pizza Tower</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{7edaa236-d6d4-4612-8389-67eaee0b7f3b}">
 		<relationship name="effectChain">

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{1ff0fbd1-d6b7-4a32-8083-aba1febc023f}">
 		<property name="name">
-			<value>kidsmenu</value>
+			<value>18 kidsmenu</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,12 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{ac368b5d-f907-4f25-917b-2a44efb31935}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{0d0b9a31-8203-4213-9d91-b11b440af8bb}</destination>
+			<destination>{f832a7d0-c4a5-4f11-b688-d0841e0fc500}</destination>
+			<destination>{584176a3-0c2c-45b7-be38-ba1363b5a150}</destination>
+			<destination>{e28b2dd3-18ed-42c4-bd79-6d0368b35075}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +79,38 @@
 		<relationship name="markers">
 			<destination>{d391e77a-1765-437e-95f4-e9b573454f8f}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{0d0b9a31-8203-4213-9d91-b11b440af8bb}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>What's On The Kids Menu?</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{f832a7d0-c4a5-4f11-b688-d0841e0fc500}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>ClascyJitto</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{584176a3-0c2c-45b7-be38-ba1363b5a150}">
+		<property name="key">
+			<value>game</value>
+		</property>
+		<property name="value">
+			<value>Pizza Tower</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{e28b2dd3-18ed-42c4-bd79-6d0368b35075}">
+		<property name="key">
+			<value>order</value>
+		</property>
+		<property name="value">
+			<value>18</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{0befac1d-e2fa-449b-b3af-cd831c8a5930}">
 		<relationship name="effectChain">

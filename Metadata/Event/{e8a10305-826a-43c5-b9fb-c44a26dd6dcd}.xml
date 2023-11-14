@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{e8a10305-826a-43c5-b9fb-c44a26dd6dcd}">
 		<property name="name">
-			<value>funiculario</value>
+			<value>07 funiculario</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{9e77a0de-b88d-4a05-b09c-8d379e8e31a0}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{dcdc763c-aab3-4890-bafb-8187d480fe74}</destination>
+			<destination>{1650e907-fb59-435f-b977-26976728c633}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
@@ -73,6 +77,22 @@
 		<relationship name="markers">
 			<destination>{2f2ec945-702a-4268-b064-6ccf2e3b11c6}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{dcdc763c-aab3-4890-bafb-8187d480fe74}">
+		<property name="key">
+			<value>name</value>
+		</property>
+		<property name="value">
+			<value>Funiculario</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{1650e907-fb59-435f-b977-26976728c633}">
+		<property name="key">
+			<value>author</value>
+		</property>
+		<property name="value">
+			<value>Dim Widdy</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{2ad84652-18ee-401f-acd0-b1250e246ae3}">
 		<relationship name="effectChain">
