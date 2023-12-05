@@ -202,9 +202,6 @@
 		<property name="length">
 			<value>232</value>
 		</property>
-		<property name="volume">
-			<value>3</value>
-		</property>
 		<property name="looping">
 			<value>true</value>
 		</property>
@@ -216,6 +213,7 @@
 			<destination>{f1e525bd-4098-4948-8926-96332d76a2af}</destination>
 			<destination>{59755a52-094f-4edb-beb2-a59560dec00f}</destination>
 			<destination>{0d8e863e-fe1d-4df5-b644-3405258d12fc}</destination>
+			<destination>{1b6428e4-6d21-4256-a2d5-0d4e5bcf1a16}</destination>
 			<destination>{6991037d-279d-4e27-9866-b1605774d6f9}</destination>
 		</relationship>
 	</object>
@@ -449,6 +447,11 @@
 		</property>
 		<relationship name="event">
 			<destination>{83ef1cd3-c77f-48cc-87c5-328296465e6a}</destination>
+		</relationship>
+	</object>
+	<object class="EventSound" id="{1b6428e4-6d21-4256-a2d5-0d4e5bcf1a16}">
+		<relationship name="event">
+			<destination>{4369b440-584a-4660-b835-1510b13000c0}</destination>
 		</relationship>
 	</object>
 	<object class="EventSound" id="{6991037d-279d-4e27-9866-b1605774d6f9}">
