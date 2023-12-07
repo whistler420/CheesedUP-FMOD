@@ -245,8 +245,10 @@
 		</property>
 		<relationship name="sounds">
 			<destination>{0264357a-bd6b-46f6-9fb9-ee80771de553}</destination>
+			<destination>{365f27f2-79b7-4c81-953f-da71caa8c77b}</destination>
 			<destination>{6ea809d7-bd2c-41b7-92e0-399d2ea18dac}</destination>
 			<destination>{ad679203-206f-448e-9395-4a8dfed40080}</destination>
+			<destination>{282f49ac-6d12-4da3-9ff5-5920c2d7ebd0}</destination>
 		</relationship>
 	</object>
 	<object class="TransitionSourceSound" id="{eabcdabf-ae24-41b8-9502-294d37828065}">
@@ -487,6 +489,11 @@
 			<destination>{5953c5e5-0426-4834-baf4-e830af91e8b7}</destination>
 		</relationship>
 	</object>
+	<object class="EventSound" id="{365f27f2-79b7-4c81-953f-da71caa8c77b}">
+		<relationship name="event">
+			<destination>{43c342d8-fe7e-44da-b322-f0d5c7b6ea66}</destination>
+		</relationship>
+	</object>
 	<object class="EventSound" id="{6ea809d7-bd2c-41b7-92e0-399d2ea18dac}">
 		<relationship name="event">
 			<destination>{db6ead83-307f-414e-9832-b5712f39297b}</destination>
@@ -495,6 +502,11 @@
 	<object class="EventSound" id="{ad679203-206f-448e-9395-4a8dfed40080}">
 		<relationship name="event">
 			<destination>{a2629b87-fa10-458d-b79b-9ef6f3b5c8b8}</destination>
+		</relationship>
+	</object>
+	<object class="EventSound" id="{282f49ac-6d12-4da3-9ff5-5920c2d7ebd0}">
+		<relationship name="event">
+			<destination>{78cbe6d9-ff41-4eb0-9b0d-d2cac26c50a1}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{016240f6-1a9c-4597-b2fb-85a9591b64a9}">
