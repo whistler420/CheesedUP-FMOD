@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{80ebd8ff-8fa7-44f0-b133-624561c13016}">
-		<property name="note" />
 		<property name="name">
 			<value>escaperumble</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{be772a5b-60ed-49a1-962a-2d2e0d1181f8}</destination>
@@ -71,7 +70,7 @@
 	<object class="MarkerTrack" id="{b889f585-4693-451c-8288-0734f6b07e80}" />
 	<object class="GroupTrack" id="{52cae7a7-3022-45ec-8b75-1d8893806a75}">
 		<relationship name="modules">
-			<destination>{7e2b343b-1618-4bba-82ec-8318e61ad712}</destination>
+			<destination>{d5a78192-c923-467e-9279-aab0122e7ab6}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{57cec009-054f-4b56-898f-ca03302dbbf0}</destination>
@@ -79,7 +78,7 @@
 	</object>
 	<object class="Timeline" id="{c2b38280-8f5f-457e-a7f7-15e4a49dd200}">
 		<relationship name="modules">
-			<destination>{7e2b343b-1618-4bba-82ec-8318e61ad712}</destination>
+			<destination>{d5a78192-c923-467e-9279-aab0122e7ab6}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{b5178341-ee63-4b90-b0ad-e094bee2f732}">
@@ -99,17 +98,20 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{c5937f9f-aefb-4548-bfd5-47acaf63ce00}" />
-	<object class="SingleSound" id="{7e2b343b-1618-4bba-82ec-8318e61ad712}">
+	<object class="SingleSound" id="{d5a78192-c923-467e-9279-aab0122e7ab6}">
 		<property name="length">
-			<value>21.600000000000001</value>
+			<value>8.279999999999994</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>13.200000000000003</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{03a0b8a1-68f4-4f82-9e27-5bb7518b5fd9}</destination>
+			<destination>{71aa1a79-5135-4f70-8102-92ca907be10a}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{57cec009-054f-4b56-898f-ca03302dbbf0}">
 		<property name="volume">
-			<value>-6</value>
+			<value>-2</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
