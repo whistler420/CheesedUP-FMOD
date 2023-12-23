@@ -97,6 +97,7 @@
 			<destination>{71d1fb3a-6823-4280-bfa9-a29b95360ae2}</destination>
 			<destination>{d4c1ee6e-5901-4e7b-8b78-04bb229cdb1d}</destination>
 			<destination>{48668dd1-9a89-46c3-b6d1-f6f514e2b054}</destination>
+			<destination>{542b16d0-4ab3-4fdf-b26d-dc04310bb1b4}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{3abc8a48-e94b-4901-9540-46c00cbcd6d4}">
@@ -378,13 +379,33 @@
 			<value>0</value>
 		</property>
 		<property name="length">
-			<value>232</value>
+			<value>232.00000000000003</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{4dd39678-da13-48a8-9482-0e443afbbf1b}</destination>
 		</relationship>
 		<relationship name="markerTrack">
 			<destination>{dfd62b73-5d73-4a4c-925c-10151ea909ad}</destination>
+		</relationship>
+	</object>
+	<object class="TransitionRegion" id="{542b16d0-4ab3-4fdf-b26d-dc04310bb1b4}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="length">
+			<value>232.00000000000003</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{4dd39678-da13-48a8-9482-0e443afbbf1b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{2475a560-758d-4221-8558-6c96d9354834}</destination>
+		</relationship>
+		<relationship name="destination">
+			<destination>{1c4690fe-7fc0-49fb-b2f3-0299d686e5f0}</destination>
+		</relationship>
+		<relationship name="triggerConditions">
+			<destination>{a7a78ef3-85ad-4d87-8298-c36758f3124d}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{666f7cbf-a9c6-4c28-8f51-24c44004b4d2}">
@@ -586,6 +607,17 @@
 			<destination>{ee9831d4-8313-431f-ad3b-3ded457101ce}</destination>
 			<destination>{fe69722d-f463-42fc-926d-9b44ff842ec1}</destination>
 			<destination>{ad4c72c9-e97e-4f9a-8f27-6a8c0ec98d7c}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{a7a78ef3-85ad-4d87-8298-c36758f3124d}">
+		<property name="minimum">
+			<value>20</value>
+		</property>
+		<property name="maximum">
+			<value>20</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{283b5fa7-5f17-4fab-96a0-bfb3bca94a78}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{2030cede-1464-4369-b337-795c9ba58ca8}" />
