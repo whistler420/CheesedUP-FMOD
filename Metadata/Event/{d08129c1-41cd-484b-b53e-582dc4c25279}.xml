@@ -99,11 +99,11 @@
 			<destination>{e5e950b2-a67e-4c77-bfd4-4bb2eefd80dc}</destination>
 		</relationship>
 		<relationship name="markers">
-			<destination>{67bf5104-2d28-435b-8f57-478825b6a0d3}</destination>
 			<destination>{024b8794-91a8-44f2-add7-f6618f5123e6}</destination>
 			<destination>{1fb78e02-91bd-4dbb-a009-20972b6b462f}</destination>
 			<destination>{35295097-400a-4913-a4d3-62943c32d2bf}</destination>
 			<destination>{74f7175e-a65c-4b63-abdb-8655ce23c156}</destination>
+			<destination>{2866d6f1-c0f5-47d5-b114-a9aba514e34c}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{34cfa553-ed36-4f9a-8b8b-80123e52ad61}">
@@ -308,17 +308,6 @@
 			<destination>{34cfa553-ed36-4f9a-8b8b-80123e52ad61}</destination>
 		</relationship>
 	</object>
-	<object class="SustainPoint" id="{67bf5104-2d28-435b-8f57-478825b6a0d3}">
-		<property name="position">
-			<value>338.46856250000002</value>
-		</property>
-		<relationship name="timeline">
-			<destination>{0d79c1eb-bc01-42ae-9c5e-638b49268ebf}</destination>
-		</relationship>
-		<relationship name="markerTrack">
-			<destination>{6196c710-5fd6-41a2-9d25-5a3a22145b62}</destination>
-		</relationship>
-	</object>
 	<object class="LoopRegion" id="{024b8794-91a8-44f2-add7-f6618f5123e6}">
 		<property name="position">
 			<value>650.03999999999996</value>
@@ -397,6 +386,20 @@
 		</relationship>
 		<relationship name="transitionTimeline">
 			<destination>{64da0ea9-5e03-462d-88e3-390b57ecb979}</destination>
+		</relationship>
+	</object>
+	<object class="LoopRegion" id="{2866d6f1-c0f5-47d5-b114-a9aba514e34c}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="length">
+			<value>338.46856250000002</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{0d79c1eb-bc01-42ae-9c5e-638b49268ebf}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{2293eb4b-2edc-4c08-97c5-a7844b3ed316}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{10fc13f3-556e-4727-895f-d77d76f65dfb}">
