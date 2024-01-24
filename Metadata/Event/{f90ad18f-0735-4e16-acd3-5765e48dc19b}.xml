@@ -42,6 +42,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{b806d178-5d8d-4a23-9f52-1ec84f5d90f7}">
+		<relationship name="automationTracks">
+			<destination>{6a8f999a-c7e3-427e-9cd1-3e1d32c0965f}</destination>
+		</relationship>
 		<relationship name="modules">
 			<destination>{71eb5678-aa77-49bf-af9b-72839d99474b}</destination>
 			<destination>{c3f38a1f-dba8-4230-a27e-2618a7c0d3f6}</destination>
@@ -69,6 +72,7 @@
 			<destination>{192a807e-3945-42ab-82f2-f2534dbc10be}</destination>
 			<destination>{eee80f59-88bf-4c4f-952d-0d8c785b0269}</destination>
 			<destination>{a62f2fbc-ba35-44ff-b442-fc5ed8c51151}</destination>
+			<destination>{827c8f7b-ad13-4cd5-a107-94fb036d2315}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{41aafd65-6a09-4da7-942c-86ce582ff39c}</destination>
@@ -77,6 +81,7 @@
 	<object class="Timeline" id="{6802048a-7b62-439d-9526-4046d1ff02d3}">
 		<relationship name="modules">
 			<destination>{192a807e-3945-42ab-82f2-f2534dbc10be}</destination>
+			<destination>{827c8f7b-ad13-4cd5-a107-94fb036d2315}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{403b03db-c279-4b21-9e8a-e83c7081032a}</destination>
@@ -94,6 +99,11 @@
 		</relationship>
 		<relationship name="mixer">
 			<destination>{0b31e32c-c41a-4706-a9d9-b71c7ec943e0}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationTrack" id="{6a8f999a-c7e3-427e-9cd1-3e1d32c0965f}">
+		<relationship name="automator">
+			<destination>{12f82676-2cef-4be5-9d9c-b53b5d7d9860}</destination>
 		</relationship>
 	</object>
 	<object class="TransitionSourceSound" id="{71eb5678-aa77-49bf-af9b-72839d99474b}">
@@ -135,6 +145,20 @@
 		<property name="length">
 			<value>0.044999999999999998</value>
 		</property>
+	</object>
+	<object class="SingleSound" id="{827c8f7b-ad13-4cd5-a107-94fb036d2315}">
+		<property name="start">
+			<value>134.40722466307284</value>
+		</property>
+		<property name="length">
+			<value>4.8027753369271649</value>
+		</property>
+		<property name="volume">
+			<value>-2</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{ebccac77-103d-450b-9e4e-38df61b9e000}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{41aafd65-6a09-4da7-942c-86ce582ff39c}">
 		<property name="name">
@@ -183,7 +207,7 @@
 			<value>4.794606469002697</value>
 		</property>
 		<property name="length">
-			<value>129.61261819407014</value>
+			<value>134.40722466307284</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{6802048a-7b62-439d-9526-4046d1ff02d3}</destination>
@@ -279,6 +303,7 @@
 		</property>
 		<relationship name="automationCurves">
 			<destination>{9327ee5e-64df-49de-998e-fdc58856ea74}</destination>
+			<destination>{e725813a-f5be-4edc-847b-2837a4eb0503}</destination>
 		</relationship>
 	</object>
 	<object class="AutomationCurve" id="{9327ee5e-64df-49de-998e-fdc58856ea74}">
@@ -289,6 +314,14 @@
 			<destination>{50ef6b4c-905e-447d-9bae-031194266363}</destination>
 			<destination>{8d4cfd8c-6cf8-4c41-bc63-48979b2fb2a4}</destination>
 			<destination>{e3c778a7-8312-43d7-ad0e-ea6de6e9bb7b}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationCurve" id="{e725813a-f5be-4edc-847b-2837a4eb0503}">
+		<relationship name="parameter">
+			<destination>{43826be6-d875-4efc-82a7-5bf22c9a204c}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{e4d129e1-aed3-4881-80bf-9fb4bb06c77d}</destination>
 		</relationship>
 	</object>
 	<object class="AutomationPoint" id="{50ef6b4c-905e-447d-9bae-031194266363}">
@@ -310,6 +343,14 @@
 	<object class="AutomationPoint" id="{e3c778a7-8312-43d7-ad0e-ea6de6e9bb7b}">
 		<property name="position">
 			<value>4.8587720597241582</value>
+		</property>
+		<property name="value">
+			<value>22000</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{e4d129e1-aed3-4881-80bf-9fb4bb06c77d}">
+		<property name="position">
+			<value>0</value>
 		</property>
 		<property name="value">
 			<value>22000</value>
