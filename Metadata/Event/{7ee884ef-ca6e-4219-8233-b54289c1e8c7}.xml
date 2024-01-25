@@ -5,7 +5,7 @@
 			<value>angelmove</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{7e8bff29-e0c5-4a2b-b9b3-f3c98347e3a1}</destination>
@@ -66,7 +66,7 @@
 	</object>
 	<object class="GroupTrack" id="{89c65529-2ae4-496d-ac22-699d0d445165}">
 		<relationship name="modules">
-			<destination>{7fb9c85b-b052-478b-b676-58f0e8568386}</destination>
+			<destination>{7052c6c1-2ffa-4b82-bbd6-ba3f1701d8c8}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{570fa408-6efe-4002-b7b3-43494c959741}</destination>
@@ -74,7 +74,7 @@
 	</object>
 	<object class="Timeline" id="{048571df-b0b5-4662-81c1-8cbf83be104a}">
 		<relationship name="modules">
-			<destination>{7fb9c85b-b052-478b-b676-58f0e8568386}</destination>
+			<destination>{7052c6c1-2ffa-4b82-bbd6-ba3f1701d8c8}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{e08a718f-3db1-4a07-8a8c-107f1c25a9ed}">
@@ -111,18 +111,21 @@
 			<destination>{e08a718f-3db1-4a07-8a8c-107f1c25a9ed}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{7fb9c85b-b052-478b-b676-58f0e8568386}">
+	<object class="SingleSound" id="{7052c6c1-2ffa-4b82-bbd6-ba3f1701d8c8}">
 		<property name="length">
-			<value>0.45999999999999996</value>
+			<value>0.49357142857142855</value>
 		</property>
 		<property name="timelockedOffset">
-			<value>0.02</value>
+			<value>0.055</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{486fb5b6-4adb-45f4-b757-9cf9fde6e4f7}</destination>
+			<destination>{b3538aee-1c43-44ef-b281-358718e7c2b9}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{570fa408-6efe-4002-b7b3-43494c959741}">
+		<property name="volume">
+			<value>3</value>
+		</property>
 		<property name="name">
 			<value>Audio 2</value>
 		</property>
