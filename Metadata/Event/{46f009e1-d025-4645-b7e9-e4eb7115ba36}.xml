@@ -8,7 +8,7 @@
 			<value>pizzatime Demo 2</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{3722c34c-ab9d-41b5-b66c-be222c452e3d}</destination>
@@ -34,6 +34,9 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{32562ff8-e75a-4e3e-a4e0-8ab195e8c325}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{d1922f23-f05c-4f1e-bf51-00d19c55549b}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{609bde5c-a73a-4d2f-b074-44f148f01dfb}">
@@ -90,6 +93,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{ce0c6585-b944-4232-a5fc-a7f7ca4d6e4e}">
+		<property name="overridingInputFormat">
+			<value>1</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{4cc9d794-da9e-4f6b-ba11-b241ae756297}</destination>
 		</relationship>

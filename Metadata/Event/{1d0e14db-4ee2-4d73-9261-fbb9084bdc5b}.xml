@@ -222,6 +222,8 @@
 		<relationship name="triggerConditions">
 			<destination>{6478d416-f2b2-4076-bcf0-23195ccf6eb9}</destination>
 			<destination>{8189077a-7a67-4fa8-981e-6395bfb5f73b}</destination>
+			<destination>{c329442b-07ad-4ca1-b9ba-1575d5b7b73d}</destination>
+			<destination>{eca6b0e2-4ea3-4e96-9b87-2b9612fab344}</destination>
 		</relationship>
 	</object>
 	<object class="LoopRegion" id="{a8e53cd6-eb2f-409f-956f-eb75c25d6b11}">
@@ -314,6 +316,28 @@
 		</property>
 		<relationship name="parameter">
 			<destination>{283b5fa7-5f17-4fab-96a0-bfb3bca94a78}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{c329442b-07ad-4ca1-b9ba-1575d5b7b73d}">
+		<property name="minimum">
+			<value>0</value>
+		</property>
+		<property name="maximum">
+			<value>1</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{4086151d-97c9-4816-b83b-e685e6c2a388}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{eca6b0e2-4ea3-4e96-9b87-2b9612fab344}">
+		<property name="minimum">
+			<value>0</value>
+		</property>
+		<property name="maximum">
+			<value>1</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{bb94e9cf-7852-44a7-9b55-24dd424eaac2}</destination>
 		</relationship>
 	</object>
 	<object class="ParameterCondition" id="{89692a90-b8ab-4ac6-ba30-a34fb6276b2f}">
