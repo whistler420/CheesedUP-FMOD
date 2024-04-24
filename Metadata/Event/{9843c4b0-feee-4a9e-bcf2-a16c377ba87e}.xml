@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{9843c4b0-feee-4a9e-bcf2-a16c377ba87e}">
-		<property name="note" />
 		<property name="name">
 			<value>fireass</value>
 		</property>
@@ -71,9 +70,6 @@
 	</object>
 	<object class="MarkerTrack" id="{7830ab82-581d-4963-a715-85ec760da38b}" />
 	<object class="GroupTrack" id="{0d72d365-7596-4197-866b-b4c1f7dbc858}">
-		<relationship name="modules">
-			<destination>{6f135e42-03ba-428a-94bf-c78925a6672a}</destination>
-		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{50493dd9-305a-4490-bc4f-51b22461e468}</destination>
 		</relationship>
@@ -88,7 +84,6 @@
 	</object>
 	<object class="Timeline" id="{c644fc66-e742-445c-8e1a-9defc7af0c72}">
 		<relationship name="modules">
-			<destination>{6f135e42-03ba-428a-94bf-c78925a6672a}</destination>
 			<destination>{0252c8eb-3508-43e1-b658-f7b758e06ae2}</destination>
 		</relationship>
 	</object>
@@ -109,14 +104,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{eacd59da-7d0e-48a5-990c-68465033952f}" />
-	<object class="SingleSound" id="{6f135e42-03ba-428a-94bf-c78925a6672a}">
-		<property name="length">
-			<value>2.1773125000000002</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{dfb6dfec-ab24-49cf-b05e-d1e22452916a}</destination>
-		</relationship>
-	</object>
 	<object class="EventMixerGroup" id="{50493dd9-305a-4490-bc4f-51b22461e468}">
 		<property name="volume">
 			<value>-6</value>
@@ -178,22 +165,10 @@
 	<object class="MixerBusEffectChain" id="{fed486a2-49ed-404f-a59b-77095801e774}">
 		<relationship name="effects">
 			<destination>{83a92324-c7ad-4a1d-881b-d86a0f288f2a}</destination>
-			<destination>{d3c1499a-2e98-42af-8d91-676429c60cd1}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{35e6ac6e-e827-4583-b31a-c0e5405da6c5}" />
 	<object class="MixerBusFader" id="{045618d5-7f56-4118-aecc-9bce25d139f9}" />
 	<object class="MixerBusFader" id="{cffb9dee-532c-401e-8f35-47357f563a53}" />
 	<object class="MixerBusFader" id="{83a92324-c7ad-4a1d-881b-d86a0f288f2a}" />
-	<object class="SFXReverbEffect" id="{d3c1499a-2e98-42af-8d91-676429c60cd1}">
-		<property name="decayTime">
-			<value>2000</value>
-		</property>
-		<property name="earlyDelay">
-			<value>0</value>
-		</property>
-		<property name="wetLevel">
-			<value>-16</value>
-		</property>
-	</object>
 </objects>
