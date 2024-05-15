@@ -5,7 +5,7 @@
 			<value>noisescream</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{54bd90f3-39bc-44bb-aa99-2c381c966ae3}</destination>
@@ -213,6 +213,7 @@
 	<object class="MixerBusEffectChain" id="{8f6f8d93-4f82-4658-85e3-9ebce932d5a7}">
 		<relationship name="effects">
 			<destination>{d708e716-fc3a-45b9-9711-12390917d581}</destination>
+			<destination>{fb5f1201-7b36-4db2-9e5b-d283a76ad750}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{87e08d1b-5547-4e3c-bbe6-0cf7b07ac1e4}" />
@@ -268,5 +269,13 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{d708e716-fc3a-45b9-9711-12390917d581}" />
+	<object class="ProxyEffect" id="{fb5f1201-7b36-4db2-9e5b-d283a76ad750}">
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="preset">
+			<destination>{544615da-5f6b-4e23-8fe1-24657667d5fd}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{af6ab17a-32ed-4d9d-a63c-bac8b986d527}" />
 </objects>
