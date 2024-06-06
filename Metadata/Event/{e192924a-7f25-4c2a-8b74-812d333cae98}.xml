@@ -60,7 +60,7 @@
 	<object class="MarkerTrack" id="{b9e4d756-2d19-40ca-9651-25d3a272ca17}" />
 	<object class="GroupTrack" id="{235eaf4e-d2c0-4255-84c9-d65ddc61bcd5}">
 		<relationship name="modules">
-			<destination>{f9cde202-f65b-4fbe-9ac5-e68614bad89a}</destination>
+			<destination>{870235a2-78ee-4abc-9aaf-279da72da77f}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{898c6432-037a-44a4-9421-1f1da868a07e}</destination>
@@ -68,7 +68,7 @@
 	</object>
 	<object class="Timeline" id="{9643555a-284e-4cc1-940d-84bbcc58b017}">
 		<relationship name="modules">
-			<destination>{f9cde202-f65b-4fbe-9ac5-e68614bad89a}</destination>
+			<destination>{870235a2-78ee-4abc-9aaf-279da72da77f}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{47a2a777-45ec-4f22-9e65-f7654e022686}">
@@ -88,15 +88,12 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{74465286-b089-475b-ab28-150bc5ea8463}" />
-	<object class="SingleSound" id="{f9cde202-f65b-4fbe-9ac5-e68614bad89a}">
+	<object class="EventSound" id="{870235a2-78ee-4abc-9aaf-279da72da77f}">
 		<property name="length">
-			<value>1.7559863945578231</value>
+			<value>0.466984126984127</value>
 		</property>
-		<relationship name="modulators">
-			<destination>{a6883f72-1811-4841-9700-aa4fa8ecd755}</destination>
-		</relationship>
-		<relationship name="audioFile">
-			<destination>{c03c76f0-3d80-4217-8783-7ad7a1ccae94}</destination>
+		<relationship name="event">
+			<destination>{74ab1c12-9b05-471a-9508-65b761f58dc5}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{898c6432-037a-44a4-9421-1f1da868a07e}">
@@ -124,14 +121,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{fac16c97-fc1c-4057-974c-b6436a885b37}" />
 	<object class="MixerBusFader" id="{7980dfd2-1baa-409e-b124-7265e798d094}" />
-	<object class="RandomizerModulator" id="{a6883f72-1811-4841-9700-aa4fa8ecd755}">
-		<property name="nameOfPropertyBeingModulated">
-			<value>pitch</value>
-		</property>
-		<property name="amount">
-			<value>4</value>
-		</property>
-	</object>
 	<object class="ADSRModulator" id="{a1ca0762-76b7-4100-b574-7f89969e2c7b}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>volume</value>
@@ -158,7 +147,7 @@
 	<object class="MixerBusFader" id="{48e01710-4c61-449c-9c51-62736fdc687e}" />
 	<object class="ProxyEffect" id="{6e3a8a6f-7a6c-4b04-9c28-ac4f17905937}">
 		<property name="inputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="preset">
 			<destination>{544615da-5f6b-4e23-8fe1-24657667d5fd}</destination>

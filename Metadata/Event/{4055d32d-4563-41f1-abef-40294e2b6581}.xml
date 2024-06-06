@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{4055d32d-4563-41f1-abef-40294e2b6581}">
 		<property name="note">
-			<value>might be missing one voice sound</value>
+			<value>may need to adjust mr stick's timing</value>
 		</property>
 		<property name="name">
 			<value>towercollapsetrack</value>
@@ -85,6 +85,7 @@
 		<relationship name="modules">
 			<destination>{dfbe7933-46a8-4107-a5cb-03ec4ca3aab8}</destination>
 			<destination>{4733c06e-4fb0-4206-9492-fd97b043c862}</destination>
+			<destination>{886bf8d3-01ae-4ec0-9bc3-e00da2ceefa8}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{074ee449-73f7-4246-b563-e0a4e09218be}</destination>
@@ -106,6 +107,7 @@
 			<destination>{4dc0b5e4-943c-4f25-aaf8-88b58c177854}</destination>
 			<destination>{2508fced-7b0b-4a0f-83a4-94205e657166}</destination>
 			<destination>{966b48bc-c2e3-4fc5-982b-2264f6b00c6b}</destination>
+			<destination>{886bf8d3-01ae-4ec0-9bc3-e00da2ceefa8}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{bbe3d7b8-6c8c-49bf-9d15-b26c76a4e9eb}">
@@ -190,6 +192,17 @@
 		</relationship>
 		<relationship name="audioFile">
 			<destination>{40acc072-5a90-4506-8eca-a4236ca36e7b}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{886bf8d3-01ae-4ec0-9bc3-e00da2ceefa8}">
+		<property name="start">
+			<value>10.15</value>
+		</property>
+		<property name="length">
+			<value>1.0151458333333334</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{afa6c78b-cb87-46a8-a089-c5a526021ac3}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{074ee449-73f7-4246-b563-e0a4e09218be}">

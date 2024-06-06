@@ -62,8 +62,8 @@
 	<object class="MarkerTrack" id="{88748da0-de42-4106-9b3f-59b8252f09c1}" />
 	<object class="GroupTrack" id="{bd8e6faf-25ae-416a-b30f-07b26f5e879e}">
 		<relationship name="modules">
-			<destination>{4046be2c-ac07-476c-b1a0-28415b20c02b}</destination>
 			<destination>{c6ed6b5e-71bc-4de7-9dcf-e3075b1660e2}</destination>
+			<destination>{f29a8f51-e6f3-4c6a-a6b5-17c2a82ca16e}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{f1dddd19-3204-4301-9cae-ee4d898b2f63}</destination>
@@ -71,8 +71,8 @@
 	</object>
 	<object class="Timeline" id="{e96458ed-457b-48b5-8c19-2b7c740d8ed6}">
 		<relationship name="modules">
-			<destination>{4046be2c-ac07-476c-b1a0-28415b20c02b}</destination>
 			<destination>{c6ed6b5e-71bc-4de7-9dcf-e3075b1660e2}</destination>
+			<destination>{f29a8f51-e6f3-4c6a-a6b5-17c2a82ca16e}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{b27d5110-fdbc-4588-a415-779642102d90}</destination>
@@ -106,14 +106,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{3d2d08f8-3475-4f9c-9fb8-b8a52bb237cf}" />
-	<object class="SingleSound" id="{4046be2c-ac07-476c-b1a0-28415b20c02b}">
-		<property name="length">
-			<value>208</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{e55788d1-0e17-4fcc-a0bd-c2d9d643a044}</destination>
-		</relationship>
-	</object>
 	<object class="SingleSound" id="{c6ed6b5e-71bc-4de7-9dcf-e3075b1660e2}">
 		<property name="start">
 			<value>215</value>
@@ -123,6 +115,14 @@
 		</property>
 		<relationship name="audioFile">
 			<destination>{3f823534-3e9c-4769-8970-97d83982264f}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{f29a8f51-e6f3-4c6a-a6b5-17c2a82ca16e}">
+		<property name="length">
+			<value>168</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{6f9c1a8c-58f0-42ec-896c-ff0a22324d6b}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{f1dddd19-3204-4301-9cae-ee4d898b2f63}">
@@ -147,7 +147,7 @@
 			<value>8</value>
 		</property>
 		<property name="length">
-			<value>200</value>
+			<value>160</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{e96458ed-457b-48b5-8c19-2b7c740d8ed6}</destination>
@@ -161,7 +161,7 @@
 			<value>0</value>
 		</property>
 		<property name="length">
-			<value>208.00999999999999</value>
+			<value>168.05000000000001</value>
 		</property>
 		<property name="transitionOffset">
 			<value>1</value>
