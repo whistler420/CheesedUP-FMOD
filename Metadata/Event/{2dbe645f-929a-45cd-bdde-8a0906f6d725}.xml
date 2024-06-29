@@ -212,7 +212,10 @@
 			<value>166.5</value>
 		</property>
 		<property name="length">
-			<value>80.493424036281183</value>
+			<value>160.98684807256234</value>
+		</property>
+		<property name="looping">
+			<value>true</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{5c886f3e-112c-46ef-a815-d67d6c2bf78b}</destination>
@@ -222,11 +225,17 @@
 		<property name="length">
 			<value>164.96616780045352</value>
 		</property>
+		<property name="volume">
+			<value>-1</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{4ae7191b-15e3-431d-8061-713bd8cbb7f4}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{8de879ad-30a9-427e-a97e-a50022b63fae}">
+		<property name="volume">
+			<value>-5.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -245,7 +254,7 @@
 			<value>166.5</value>
 		</property>
 		<property name="length">
-			<value>80.47904166666666</value>
+			<value>165.18674999999996</value>
 		</property>
 		<property name="looping">
 			<value>2</value>
@@ -285,7 +294,7 @@
 			<value>166.5</value>
 		</property>
 		<property name="length">
-			<value>80.47904166666666</value>
+			<value>160.98684807256234</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{c3c82413-8226-49ed-8156-c3bdf1cbc398}</destination>
@@ -300,6 +309,9 @@
 		</property>
 		<property name="length">
 			<value>165.18674999999993</value>
+		</property>
+		<property name="transitionOffset">
+			<value>1</value>
 		</property>
 		<property name="looping">
 			<value>2</value>

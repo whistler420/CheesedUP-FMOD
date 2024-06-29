@@ -70,7 +70,6 @@
 			<destination>{e401cee6-35f3-4d78-b13b-699d654b50f8}</destination>
 			<destination>{07b1edfb-983c-43bf-9a2e-3fe8cc86c26c}</destination>
 			<destination>{4fc58b04-0efc-4921-8917-f24f763e6f8b}</destination>
-			<destination>{56ca9fd9-4f73-405e-98ca-8c8d77e60aa4}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{c83522f1-e276-49a7-851c-6efe9cd0738b}</destination>
@@ -80,7 +79,6 @@
 		<relationship name="modules">
 			<destination>{07b1edfb-983c-43bf-9a2e-3fe8cc86c26c}</destination>
 			<destination>{4fc58b04-0efc-4921-8917-f24f763e6f8b}</destination>
-			<destination>{56ca9fd9-4f73-405e-98ca-8c8d77e60aa4}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{4614c3f5-9526-48e0-90ba-eedc18ee52f6}</destination>
@@ -151,24 +149,16 @@
 			<value>7.0253170720443165</value>
 		</property>
 		<property name="volume">
-			<value>-1</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{21d3fc0c-3f3b-41a6-b369-819015103799}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{56ca9fd9-4f73-405e-98ca-8c8d77e60aa4}">
-		<property name="start">
-			<value>281.03718586316586</value>
-		</property>
-		<property name="length">
-			<value>7.0253170720442881</value>
+			<value>-4</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{21d3fc0c-3f3b-41a6-b369-819015103799}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{c83522f1-e276-49a7-851c-6efe9cd0738b}">
+		<property name="volume">
+			<value>-9</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -225,7 +215,7 @@
 			<value>149.8806904352102</value>
 		</property>
 		<property name="length">
-			<value>138.18181250000001</value>
+			<value>131.15649542795566</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{e87d2b15-eff7-4be5-8ca0-c7282c5ccd5e}</destination>
@@ -242,7 +232,7 @@
 			<value>149.8806904352102</value>
 		</property>
 		<property name="length">
-			<value>138.18181249999998</value>
+			<value>131.15649542795563</value>
 		</property>
 		<property name="triggerConditionMode">
 			<value>1</value>

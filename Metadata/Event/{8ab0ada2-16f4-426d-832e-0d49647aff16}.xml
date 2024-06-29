@@ -75,9 +75,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{cca3a7e6-a035-482a-8b47-d2d9bc6b33e5}">
-		<property name="volume">
-			<value>10</value>
-		</property>
 		<relationship name="effectChain">
 			<destination>{3369712e-3273-4883-98cc-86c876d239a5}</destination>
 		</relationship>
@@ -99,13 +96,16 @@
 			<value>134.40722466307284</value>
 		</property>
 		<property name="volume">
-			<value>-2</value>
+			<value>-8.5</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{ebccac77-103d-450b-9e4e-38df61b9e000}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{21ca7d9d-65d2-4476-87bb-0d0356e59f01}">
+		<property name="volume">
+			<value>-5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -136,7 +136,8 @@
 	<object class="MixerBusEffectChain" id="{3369712e-3273-4883-98cc-86c876d239a5}">
 		<relationship name="effects">
 			<destination>{ca381d2a-eb2b-4260-b918-8ef70547806e}</destination>
-			<destination>{afd1a297-cffc-474d-8d3f-ea72cc6b8d3b}</destination>
+			<destination>{c091c607-58bd-4205-9900-147bd2afa39d}</destination>
+			<destination>{e5dc5818-d5fe-41c8-b179-c2417a65dd73}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{c6138b03-0017-4938-ba52-e3e865d13391}" />
@@ -148,21 +149,10 @@
 	</object>
 	<object class="MixerBusPanner" id="{f68e80ae-491d-4f7e-ae98-7d0782fe0ced}" />
 	<object class="MixerBusFader" id="{ca381d2a-eb2b-4260-b918-8ef70547806e}" />
-	<object class="ThreeEQEffect" id="{afd1a297-cffc-474d-8d3f-ea72cc6b8d3b}">
-		<property name="lowGain">
-			<value>-30</value>
-		</property>
-		<property name="midGain">
-			<value>-4</value>
-		</property>
-		<property name="highGain">
-			<value>-26</value>
-		</property>
-		<property name="lowCrossover">
-			<value>1650</value>
-		</property>
-		<property name="highCrossover">
-			<value>3600</value>
+	<object class="LowpassEffect" id="{c091c607-58bd-4205-9900-147bd2afa39d}" />
+	<object class="HighpassEffect" id="{e5dc5818-d5fe-41c8-b179-c2417a65dd73}">
+		<property name="cutoff">
+			<value>260</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{23ad3b2c-aec8-4969-b362-c3d67a90c007}" />
